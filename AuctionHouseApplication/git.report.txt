@@ -1,0 +1,2856 @@
+commit 8698095274d953ffdcef6fdac79305bc0b67de11
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Fri Dec 13 22:46:30 2024 -0500
+
+    Added some buyer use case descriptions
+
+ README.md | 55 +++++++++++++++++++++++++++++++++++++------------------
+ 1 file changed, 37 insertions(+), 18 deletions(-)
+
+commit c344be71853a4133ac8b386dab1c710b79d331d8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 21:42:09 2024 -0500
+
+    Made more changes to the README
+
+ README.md | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit 9b618ca955dcd79e46e29011e647240c45c5d129
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 21:35:22 2024 -0500
+
+    Updated the README file
+
+ README.md      |   71 +-
+ git-report.txt | 1991 --------------------------------------------------------
+ 2 files changed, 43 insertions(+), 2019 deletions(-)
+
+commit 95adbe01042866bf062cafb6820fe11399c70584
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Fri Dec 13 20:47:44 2024 -0500
+
+    Fixed a small bug with review-purchases lambda function
+
+ src/lambda-functions/review-purchases/src/index.mjs | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 8c4433475e21b8d7a6c62e89905067e748f91324
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 20:42:39 2024 -0500
+
+    Fixed a small bug with the "revview-active-bids" lambda function
+
+ .../review-active-bids/src/index.mjs               | 196 ++++++++++-----------
+ 1 file changed, 96 insertions(+), 100 deletions(-)
+
+commit 5f3bc0399106f9de5664ebe1cf42f645893da3ff
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Fri Dec 13 18:27:34 2024 -0500
+
+    Update README.md
+
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 067c732cdbfaddbde4f8c83b407c8a42089af94d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 14:43:59 2024 -0500
+
+    Fixed an issue with a date on the report
+
+ src/app/admin-report/page.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 94b7eb8d5bd738f6b55d243f1790c592125ab767
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 14:32:37 2024 -0500
+
+    Reformatted a date for the reports
+
+ src/app/admin-report/page.tsx | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+commit d4217ff531ae9d1a595cf3e8b312a2753e1dd3d8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Fri Dec 13 13:45:22 2024 -0500
+
+    Pushed a small bug fix
+
+ src/app/view-items/view-specific-item/page.tsx | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit da4a1d39b3ac51851e188aa2b3820bae237eae0f
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Thu Dec 12 20:02:13 2024 -0500
+
+    Update README.md
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 9666dccb153af5bfe7aa7a2a5d45cd288c1bef7c
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Dec 12 16:55:35 2024 -0500
+
+    Update README
+
+ README.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 7ff33d789214367660e19916957c00f71a374ced
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Dec 12 16:53:35 2024 -0500
+
+    Update README
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e42fd4c32d029c09266b68c79333c43c747bd4a3
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Dec 12 16:53:06 2024 -0500
+
+    Update README
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 82b8c621f5c79b5ded8c290c267e45dc86770535
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Dec 12 16:52:48 2024 -0500
+
+    Update README
+
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit c278a12c873136eb4d56612a408f0bd1f5d88da5
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Dec 12 16:51:41 2024 -0500
+
+    Update README.md
+
+ README.md | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+commit 911013bba6612440e6c75bc5f92e5b8467c54de3
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Dec 10 20:32:18 2024 -0500
+
+    Made it so that the seller only receives 95% of the funds when fulfilling an item
+
+ src/lambda-functions/fulfill-item/src/index.mjs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 73664df1b4abc8d145f011935c7e60a2024d9f1c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Dec 10 19:16:02 2024 -0500
+
+    Fixed a small bug with sessionStorage
+
+ src/app/view-items/view-specific-item/page.tsx | 49 ++++++++++++++++++--------
+ 1 file changed, 34 insertions(+), 15 deletions(-)
+
+commit 909a4469292f5c90a6451c5be7d2c6064224a62c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Dec 10 17:43:04 2024 -0500
+
+    fixed a small typo on a page
+
+ src/app/admin-report/page.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit f6160e4423ea978c2d8ffc6f69c2b28d444175aa
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Dec 10 17:09:12 2024 -0500
+
+    Update AdminFunds component to display seller and buyer information, and handle missing bid values gracefully
+
+ src/app/admin-report/page.tsx | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit e7af262941176a47ef36f3005312209cf154467d
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Dec 10 17:07:01 2024 -0500
+
+    Refactor AdminFunds component to group auction items by name, calculate unique items, and display bid amount in the report
+
+ src/app/admin-report/page.tsx | 22 ++++++++++++++++------
+ 1 file changed, 16 insertions(+), 6 deletions(-)
+
+commit c7d205cc862ba7b8bf806bd9f5f3735f5038cbb6
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Dec 10 17:03:18 2024 -0500
+
+    Enhance Admin Dashboard with Auction Data and Unsold Item Count
+
+ src/app/admin-report/page.tsx | 132 +++++++++++++++++++++++++++---------------
+ 1 file changed, 85 insertions(+), 47 deletions(-)
+
+commit a6d58aace9e0d2e84d810646152c2f3c350488ce
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Dec 10 16:48:07 2024 -0500
+
+    add lambda function
+
+ src/lambda-functions/adminForensics/index.mjs | 99 +++++++++++++++++++++++++++
+ 1 file changed, 99 insertions(+)
+
+commit 65682181a2dca12df5987872a3c42e80fd71dbd6
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Dec 10 13:48:23 2024 -0500
+
+    Edit Create account lambda function to check admin table for existing username
+
+ src/lambda-functions/create_account/src/index.mjs | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 2dc0d5fe12d6d929b6bceeb67af78de2643790b1
+Merge: 31f8f78 09f983d
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Dec 10 11:04:36 2024 -0500
+
+    Merge pull request #58 from AshkanGanj/adminReports
+    
+    Admin reports
+
+commit 09f983df9c26c5d9cefd34d8e55c72488874b1d7
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Dec 10 11:03:05 2024 -0500
+
+    add auction data fetching and display in AdminFunds component
+
+ src/app/admin-report/page.tsx | 69 ++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 65 insertions(+), 4 deletions(-)
+
+commit 31f8f78b482933b024fab20d8df3d792d2695227
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Dec 10 00:01:39 2024 -0500
+
+    Fixed a bug with the datetime conversions
+
+ src/app/review-items/specific-item/edit-item/page.tsx | 9 ++++++++-
+ src/app/review-items/specific-item/page.tsx           | 6 +++---
+ 2 files changed, 11 insertions(+), 4 deletions(-)
+
+commit c0dd8cd505170ce44f714eba6fb992c7ef710475
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Dec 9 22:35:36 2024 -0500
+
+    refactor: rename admin-auction-report to admin-report and update Navbar links
+
+ src/app/admin-auction-forensics/page.tsx                |  0
+ src/app/{admin-auction-report => admin-report}/page.tsx |  0
+ src/app/components/Navbar.tsx                           | 11 +++--------
+ 3 files changed, 3 insertions(+), 8 deletions(-)
+
+commit 737c8d86e9227869c9494770b75e6e615867cec5
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Dec 9 22:34:33 2024 -0500
+
+    restrict fund display to non-Admin users in Navbar component
+
+ src/app/components/Navbar.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6e5681da03e261f0bc84fb88c31f275f615ad6b4
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Dec 9 22:31:08 2024 -0500
+
+    add AdminFunds component to display auction report funds
+
+ src/app/admin-auction-forensics/page.tsx |  0
+ src/app/admin-auction-report/page.tsx    | 65 ++++++++++++++++++++++++++++++++
+ 2 files changed, 65 insertions(+)
+
+commit c7021cc133cbdaf6d99a987791b2d23709ef3b7f
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Dec 9 22:15:05 2024 -0500
+
+    Edit lambda functionto fetch unfreeze request for only active items
+
+ src/lambda-functions/fetch-unfreeze-requests-list/src/index.mjs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit efaa1a0b8cd7590c0e6756a24b94d41c6e5daee8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Dec 9 22:00:23 2024 -0500
+
+    Made it so that the frozen notifications would only show for "active" items
+
+ src/app/review-items/specific-item/page.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit ef5c9959b4705528a90adaa10aec7c107bcf2c9b
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Dec 9 21:06:16 2024 -0500
+
+    add auction report links
+
+ src/app/components/Navbar.tsx | 37 +++++++++++++++++--------------------
+ 1 file changed, 17 insertions(+), 20 deletions(-)
+
+commit 6695d6b741d051c226468dc837e5108221cfed73
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Dec 9 18:36:04 2024 -0500
+
+    remove dark theme
+
+ src/app/globals.css | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit a96ebc351b8ed43b90be6d0e6abc2e4f7e6863fe
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Dec 9 15:00:30 2024 -0500
+
+    Update login for Admin login
+
+ src/lambda-functions/login_account/src/index.mjs | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit ae49e7b37b0a47e1ac9616b94c4a9a2255ee6637
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Dec 9 14:55:32 2024 -0500
+
+    Update login account for Admin login
+
+commit 6c55266745867e4b9047106079585f0da0b6e046
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 21:56:49 2024 -0500
+
+    Edit messages
+
+ src/app/view-items/page.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 06e5550d5c717d61adc165e59441053994d7a0ea
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 21:53:00 2024 -0500
+
+    Edit message
+
+ src/app/view-items/page.tsx | 13 +++++++++----
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+
+commit 332cc35158dbd9f75fcb1e7d80881b75e69eda63
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 21:42:11 2024 -0500
+
+    Edit button name (Freeze buttons)
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7349749b6478b2d490611cf560754fbcb935523d
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 21:39:37 2024 -0500
+
+    edit bug for admin
+
+ .../admin-freeze-unfreeze/src/index.mjs            | 27 +++++++++++++++++-----
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+
+commit 25084b7a50ff0670ce9db25dd272b5883916bda6
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 18:05:25 2024 -0500
+
+    remove unnecessary files
+
+ src/app/admin-dashboard/page.tsx      |   8 ---
+ src/app/components/AdminDashboard.tsx | 124 ----------------------------------
+ 2 files changed, 132 deletions(-)
+
+commit 5879ec553c2c34db63cfbc7c4dca56be54e858ea
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 17:57:28 2024 -0500
+
+    Made sure that frozen items could not receive any new bids within the appropariate lambda functions
+
+ src/lambda-functions/buy-now/src/index.mjs   | 119 ++++++++++++++----------
+ src/lambda-functions/place-bid/src/index.mjs | 129 ++++++++++++++++-----------
+ 2 files changed, 145 insertions(+), 103 deletions(-)
+
+commit 7bfab6e55573d04e4757f048499c1510b9b5b901
+Merge: 532c7ba f18356e
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 17:46:51 2024 -0500
+
+    Merge pull request #56 from AshkanGanj/admin/page
+    
+    Add unfreeze request button in Navbar
+
+commit f18356e2eb525ca533b6c6c4cfd30ff40ea63db6
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 17:46:29 2024 -0500
+
+    Add unfreeze request button in Navbar
+
+ src/app/admin-unfreeze-requests/page.tsx | 124 +++++++++++++++++++++++++++++++
+ src/app/components/AdminDashboard.tsx    |   2 +-
+ src/app/components/Navbar.tsx            |   9 +++
+ src/app/login-account/page.tsx           |  10 +--
+ 4 files changed, 139 insertions(+), 6 deletions(-)
+
+commit 532c7ba4a2d29512e1f3c58df57e7ac83dc2fa92
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 16:54:44 2024 -0500
+
+    Admin view details
+
+ src/app/view-items/page.tsx                        |  6 +++
+ src/app/view-items/view-specific-item/page.tsx     |  6 ++-
+ .../view-specific-item/src/index.mjs               | 49 +++++++++++++---------
+ 3 files changed, 39 insertions(+), 22 deletions(-)
+
+commit 6cd89c9161399ce3ffea1bc124f76a2b1c905537
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 15:29:14 2024 -0500
+
+    Modified the buttons to render based on the item being frozen.
+
+ src/app/review-items/specific-item/page.tsx | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 3daf150c3668c92240ba1cfbdf2d2f41113bc976
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 14:43:36 2024 -0500
+
+    add lambda function for unfreeze requests in admin page
+
+ .../fetch-unfreeze-requests-list/src/index.mjs     | 151 +++++++++++++++++++++
+ 1 file changed, 151 insertions(+)
+
+commit b91bebcb5e2a4429bc4331493eb54e2ab7a1037f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 14:41:37 2024 -0500
+
+    made it so that frozen items automatically become failed if the expiration date has passed
+
+ src/lambda-functions/update-items-activity-status/src/index.mjs | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit eeb86b58fa7c2a60289061a0e788a9d83fe3b3c0
+Merge: 6b30e2a fdbcfae
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 11:42:47 2024 -0500
+
+    Merge pull request #55 from AshkanGanj/admin/list-unfreeze-request
+    
+    Add unfreeze request list for Admin page
+
+commit fdbcfaefca29c60211ec083129b07fe9702f4b86
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 11:42:27 2024 -0500
+
+    Add unfreeze request list for Admin page
+
+ src/app/components/AdminDashboard.tsx | 148 ++++++++++++++++++++++++++--------
+ 1 file changed, 116 insertions(+), 32 deletions(-)
+
+commit 6b30e2a5d800a9184c1dd864d7b3faca2320fa2e
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 09:21:13 2024 -0500
+
+    Fix button name
+
+ src/app/components/AdminDashboard.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit fdf69e592837e3163301992fa5c9df2d41fb68bf
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 09:17:16 2024 -0500
+
+    Add lambda function for freeze unfreeze by Admin in view page
+
+ .../admin-freeze-unfreeze/src/index.mjs            | 113 +++++++++++++++++++++
+ 1 file changed, 113 insertions(+)
+
+commit cabc9fb727d367162578ccc325ce6685c2d10e7d
+Merge: a73fe1f 890cc70
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 09:12:38 2024 -0500
+
+    Merge pull request #54 from AshkanGanj/admin/freeze-unfreeze
+    
+    Add freeze and unfreeze option in view page for admin
+
+commit 890cc709cc10345f74503cbee57c802a09aaffef
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 09:12:05 2024 -0500
+
+    Add freeze and unfreeze option in view page for admin
+
+ src/app/components/AdminDashboard.tsx |  4 ++--
+ src/app/components/Navbar.tsx         |  2 +-
+ src/app/view-items/page.tsx           | 42 +++++++++++++++++++++++++++++++++++
+ 3 files changed, 45 insertions(+), 3 deletions(-)
+
+commit a73fe1fd0b8c6be3e648cd951f874f9cafe3e927
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 02:43:14 2024 -0500
+
+    Changed the == 1 to > 0 for the check to see if a buy now has been bought in the "buy-now" lambda function
+
+ src/lambda-functions/buy-now/src/index.mjs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 93c04fd4cee3b0d914072a2bedd800016326818c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 02:36:41 2024 -0500
+
+    Added an extra check to the "place-bid" and "buy-now" lambda functions to prevent the buyer from buying an expired item
+
+ src/lambda-functions/buy-now/src/index.mjs   | 213 +++++++++++----------
+ src/lambda-functions/place-bid/src/index.mjs | 267 +++++++++++++++------------
+ 2 files changed, 261 insertions(+), 219 deletions(-)
+
+commit dc43d7929af42f7e537a2d7371e65165f3310d42
+Merge: 8ecb149 7521a4d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 01:10:38 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 8ecb14911c119315292df8099abca05b741da3a3
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Dec 8 01:10:34 2024 -0500
+
+    Changed a message displayed regarding buy now items that have been bought
+
+ src/app/view-items/view-specific-item/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7521a4daf8c980980a7a334894d8598f078f530b
+Merge: 2dfeda8 4a49576
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 00:05:37 2024 -0500
+
+    Merge pull request #53 from AshkanGanj/Admin_see_funds
+    
+    add admin see funds
+
+commit 4a49576b59f9c92f21574c6498778fc5f7ed488d
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sun Dec 8 00:04:25 2024 -0500
+
+    add admin see funds
+
+ src/app/components/Navbar.tsx                      | 10 ++-
+ .../get-admin-information/src/index.mjs            | 87 ++++++++++++++++++++++
+ 2 files changed, 96 insertions(+), 1 deletion(-)
+
+commit 2dfeda85ea21980c72d4e035e49866d3cff9f110
+Merge: b255572 7b8cfb5
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sat Dec 7 23:44:04 2024 -0500
+
+    Merge pull request #52 from AshkanGanj/admin-dash
+    
+    Add admin dashboard
+
+commit 7b8cfb55f4bde3da8b2d00903ae2f8302ba8f601
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Sat Dec 7 23:43:13 2024 -0500
+
+    Add admin dashboard
+
+ src/app/admin-dashboard/page.tsx      |  8 +++++++
+ src/app/components/AdminDashboard.tsx | 40 +++++++++++++++++++++++++++++++++++
+ src/app/components/Navbar.tsx         | 13 ++++++++++--
+ src/app/login-account/page.tsx        |  7 +++++-
+ 4 files changed, 65 insertions(+), 3 deletions(-)
+
+commit b25557260696c8ff5ccd238e4c4ebec0036e1f47
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 22:52:43 2024 -0500
+
+    Changed an incorrect message for when reviewing purchases
+
+ src/app/review-purchases/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 26195c797da59ce09bdfcf79601a30f7a715f820
+Merge: 381ef48 8593780
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 22:44:25 2024 -0500
+
+    Merge pull request #51 from AshkanGanj/seller/request-unfreeze-item
+    
+    Finished Request Unfreeze Item use case + filter by frozen
+
+commit 859378038931427cd39811251bb4e81db67e2a35
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 22:43:14 2024 -0500
+
+    Finished Request Unfreeze Item use case + filter by frozen
+
+ src/app/review-items/page.tsx               |  45 ++++---
+ src/app/review-items/specific-item/page.tsx | 186 +++++++++++++++++++---------
+ 2 files changed, 156 insertions(+), 75 deletions(-)
+
+commit 381ef482678d472d8227f62b13d748ffb1e75bac
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 22:29:37 2024 -0500
+
+    Fixed a small bug with the "request-unfreeze-item" lambda function
+
+ src/lambda-functions/request-unfreeze-item/src/index.mjs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d9a6fc0a41c7f223f526bb3e5584272d6299fc90
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 21:47:17 2024 -0500
+
+    Fixed a minor bug with the message that appears when a user tries to buy an item that has already been bought
+
+ src/app/view-items/view-specific-item/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 86a623f35a013233b0be958bd0be0a34b54b9562
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 21:43:33 2024 -0500
+
+    Made a message appear to the user if a buy now item has been bought
+
+ src/app/view-items/view-specific-item/page.tsx | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit b47d60d262f7c3c062f7fd2184172c7d692a06e3
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 21:33:01 2024 -0500
+
+    Made changes on the "view-specific-item" lambda function and the view specific item page to accommodate for frozen items
+
+ src/app/view-items/view-specific-item/page.tsx        | 18 ++++++++++++++++--
+ src/lambda-functions/view-specific-item/src/index.mjs |  2 ++
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+
+commit 83a2c8a83484bb8825c686265d10b1e730f095d8
+Merge: 7b2a271 b53ca90
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 20:56:06 2024 -0500
+
+    Merge pull request #50 from AshkanGanj/seller/request-unfreeze-item
+    
+    implemented the "request-unfreeze-item" lambda function
+
+commit b53ca90031594d51880b84beb5f0ab8bf22c0ece
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 20:54:51 2024 -0500
+
+    implemented the "request-unfreeze-item" lambda function
+
+ .../fetch-recently-sold/{ => src}/index.mjs        |   0
+ .../request-unfreeze-item/src/index.mjs            | 143 +++++++++++++++++++++
+ 2 files changed, 143 insertions(+)
+
+commit 7b2a271fb59ffbfda8b26eb9ddb6ea602294605f
+Merge: 964a818 e966063
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 20:24:24 2024 -0500
+
+    Merge pull request #49 from AshkanGanj/buyer/review-purchases
+    
+    Implemented the frontend for the "review purchases" use case
+
+commit e96606344386adbaa727c4525e6a6a0829860781
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 20:21:29 2024 -0500
+
+    Implemented the frontend for the "review purchases" use case
+
+ src/app/components/Navbar.tsx       |   6 +
+ src/app/review-purchases/page.tsx   | 260 ++++++++++++++++++++++++++++++++++++
+ src/app/view-recently-sold/page.tsx |   4 +
+ 3 files changed, 270 insertions(+)
+
+commit e5e817013cb7c1972501837419a0048a30d2458e
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 20:07:00 2024 -0500
+
+    Created review-purchases lambda function
+
+ .../review-purchases/src/index.mjs                 | 132 +++++++++++++++++++++
+ 1 file changed, 132 insertions(+)
+
+commit 964a818504d2766a74bacd39d0c13e45224f9aa0
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 19:47:25 2024 -0500
+
+    modified the "view-specific-item" lambda function to take in the buyer an item was sold to
+
+ src/lambda-functions/view-specific-item/src/index.mjs | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 9a8e7b77c8a61ed89f87ea55111185a20f6dba74
+Merge: dd5c989 4ced0f4
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 19:45:02 2024 -0500
+
+    Merge pull request #48 from AshkanGanj/buyer/review-active-bids
+    
+    removed redundant page and modified the "view-specific-item" page
+
+commit 4ced0f4c5d01d26e860ab60d2fcf901ea5d43a6e
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 19:44:16 2024 -0500
+
+    removed redundant page and modified the "view-specific-item" page
+
+ src/app/view-items/view-specific-item/page.tsx     |  22 +-
+ src/app/view-recently-sold/page.tsx                |   2 +-
+ .../view-specific-recently-sold/page.tsx           | 334 ---------------------
+ 3 files changed, 22 insertions(+), 336 deletions(-)
+
+commit dd5c98989f8a5f4100faf85cde3976fbdf07cb58
+Merge: c43b783 81ad557
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 18:18:18 2024 -0500
+
+    Merge pull request #46 from AshkanGanj/buyer/review-active-bids
+    
+    Completed Review Active Bids Use Case
+
+commit 81ad557138fc8bda24464385850da4ed88e31da5
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 18:16:07 2024 -0500
+
+    Added review-active-bids lambda function
+
+ .../review-active-bids/src/index.mjs               | 132 +++++++++++++++++++++
+ 1 file changed, 132 insertions(+)
+
+commit 1f695541010ecc9330969026963663871581d999
+Merge: 38ea6b8 c43b783
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 18:11:09 2024 -0500
+
+    Merge branch 'main' into buyer/review-active-bids
+
+commit 38ea6b86b9dd28f403513b86716e37587b3b2508
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 18:10:47 2024 -0500
+
+    Completed Review Active Bids Use Case
+
+ package-lock.json                   |  18 +--
+ src/app/components/Navbar.tsx       |  18 ++-
+ src/app/review-active-bids/page.tsx | 244 ++++++++++++++++++++++++++++++++++++
+ 3 files changed, 267 insertions(+), 13 deletions(-)
+
+commit c43b783bb49e79078f4b3e0206879c710b7a1ef2
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 18:08:02 2024 -0500
+
+    Changed an "Active Items" label to "Recently Sold Items".
+
+ src/app/view-recently-sold/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2684ffed8bf44ec1a3a38d4be4e2231ab04a0946
+Merge: 32a8515 fa4cdde
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 15:47:45 2024 -0500
+
+    Merge pull request #45 from AshkanGanj/buyer/recently-sold-items
+    
+    Implemented the "fetch-recently-sold" lambda function and modified the "view-item" lambda function
+
+commit fa4cdde40e6b5d41b0472d9687c981c943c8d881
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 15:46:00 2024 -0500
+
+    Implemented the "fetch-recently-sold" lambda function and modified the "view-item" lambda function
+
+ src/lambda-functions/fetch-recently-sold/index.mjs | 106 +++++++++++++++++++++
+ .../view-specific-item/src/index.mjs               |  10 +-
+ 2 files changed, 112 insertions(+), 4 deletions(-)
+
+commit 32a85150fa447a9964f94b877739ededa3a3563b
+Merge: 8865a3f 50cff15
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Dec 7 15:34:18 2024 -0500
+
+    Merge pull request #44 from AshkanGanj/buyer/recently-sold-items
+    
+    Implemented the Search and Sort Recently Sold Items Use Cases
+
+commit 50cff15d55bcdfad1f20c9982b47f13b0ef50ded
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 15:31:53 2024 -0500
+
+    Implemented the Search and Sort Recently Sold Items
+
+ src/app/components/Navbar.tsx                      |  22 +-
+ src/app/view-recently-sold/page.tsx                | 245 +++++++++++++++
+ .../view-specific-recently-sold/page.tsx           | 334 +++++++++++++++++++++
+ 3 files changed, 595 insertions(+), 6 deletions(-)
+
+commit 8865a3feae929f0a9e70bd1ce4ffbfeb18bce30d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 12:52:24 2024 -0500
+
+    Another date bug fix
+
+ src/app/review-items/specific-item/page.tsx | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 98507488d70c2fb70e9fd7869cd496dd95c6992f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Dec 7 12:44:47 2024 -0500
+
+    Fixed up all of the issues regarding the dates and time zones not showing up properly
+
+ src/app/add-item/page.tsx                            |  3 ++-
+ src/app/components/Navbar.tsx                        |  2 +-
+ src/app/review-items/specific-item/Table.tsx         |  1 -
+ .../review-items/specific-item/edit-item/page.tsx    |  4 +++-
+ src/app/review-items/specific-item/page.tsx          |  3 ---
+ src/app/view-items/page.tsx                          |  2 --
+ src/app/view-items/view-specific-item/page.tsx       |  3 ---
+ src/lambda-functions/archive-item/src/index.mjs      |  1 -
+ src/lambda-functions/buy-now/src/index.mjs           |  1 -
+ src/lambda-functions/fulfill-item/src/index.mjs      | 20 ++++++++++++++++++--
+ src/lambda-functions/place-bid/src/index.mjs         |  1 -
+ src/lambda-functions/publish-item/src/index.mjs      |  1 -
+ .../update-items-activity-status/src/index.mjs       |  1 -
+ .../view-specific-item/src/index.mjs                 |  7 -------
+ 14 files changed, 24 insertions(+), 26 deletions(-)
+
+commit 425e5a11bd89884a5fd4e3cb2a18131b6eaa2afb
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 06:56:33 2024 -0500
+
+    Made more changes to the README
+
+ README.md | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+commit 02ca05219a3151c643b4d81920add910edd71ace
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 06:49:10 2024 -0500
+
+    minor fixes
+
+ README.md | 29 ++++++++++++-----------------
+ 1 file changed, 12 insertions(+), 17 deletions(-)
+
+commit 913572dc47390099180b9c32ee40b218e90ae45f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 06:39:35 2024 -0500
+
+    Made final notes on the README
+
+ README.md | 46 ++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 40 insertions(+), 6 deletions(-)
+
+commit 8ccedb2579fa3c086aeaf7b1ed271b1df4ec7045
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 05:58:34 2024 -0500
+
+    Made the git-report
+
+ git-report.txt | 1331 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1331 insertions(+)
+
+commit b745c0dd1ad2276c14ff99252996ac0087676ef3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 05:57:38 2024 -0500
+
+    Added Archive Item and Buy Now use case explanations
+
+ README.md | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+commit 19c11fd7f040e6181b14c6dcc0b0656e898163af
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 04:43:51 2024 -0500
+
+    Fixed an issue regarding creating items of type buy now
+
+ src/app/add-item/page.tsx | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 602eb046b32eb4a656215242c20428b1e89053b1
+Merge: 0680043 6696c90
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 03:55:47 2024 -0500
+
+    Merge pull request #43 from AshkanGanj/seller/fulfill-item
+    
+    Null case handling for See Your Funds
+
+commit 6696c90d4e5b9013b8be300a790f8e8f5c0a38ef
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 03:54:54 2024 -0500
+
+    Null case handling for See Your Funds
+
+ src/app/components/Navbar.tsx | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 068004307669b5f021f75e1b706a5677e9a0473b
+Merge: 7eb2f89 c719132
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 03:37:14 2024 -0500
+
+    Merge pull request #42 from AshkanGanj/seller/fulfill-item
+    
+    Fixed bug that caused the funds useState variable to not change in time
+
+commit c719132e0a884389d29852243c7d72a738974474
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 03:35:29 2024 -0500
+
+    Fixed bug that caused the funds useState variable to not change in time
+
+ src/app/components/Navbar.tsx | 18 +++++++++++++-----
+ 1 file changed, 13 insertions(+), 5 deletions(-)
+
+commit 7eb2f89c62260eb8d6688665bb7c54100f5db0f0
+Merge: 03dfcf5 ddae7cf
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 02:58:42 2024 -0500
+
+    Merge pull request #41 from AshkanGanj/seller/fulfill-item
+    
+    Updated fulfill item to show loading spinner and success alert
+
+commit ddae7cf169d99b75f981d02580f53081ea93a74c
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 02:57:59 2024 -0500
+
+    Updated fulfill item to show loading spinner and success alert
+
+ src/app/review-items/specific-item/page.tsx | 35 ++++++++++++++++++++++-------
+ 1 file changed, 27 insertions(+), 8 deletions(-)
+
+commit 03dfcf5908b715b8a109e1de0d35e020337a6f0a
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 02:20:07 2024 -0500
+
+    Changed the important dates to include the times as well
+
+ src/app/view-items/page.tsx                    | 30 +++++++++++++++++---------
+ src/app/view-items/view-specific-item/page.tsx | 10 ++++++---
+ 2 files changed, 27 insertions(+), 13 deletions(-)
+
+commit 93865c788c3395e5ccb828f3e4715ba29a554e10
+Merge: e0a0750 97541e2
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 02:11:06 2024 -0500
+
+    Merge pull request #40 from AshkanGanj/buyer/buy-now
+    
+    Buy Now shows the buy now table and renders all updated information properly after POST request
+
+commit 97541e2ca59b18b1848196216d5406ab577f61c6
+Merge: 8ffed13 e0a0750
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 02:09:16 2024 -0500
+
+    Merge branch 'main' into buyer/buy-now
+
+commit 8ffed13b3069bfaa7d7c1f8830f3b6d0e77979ba
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 02:08:44 2024 -0500
+
+    Buy Now shows the buy now table and renders all updated information properly after POST request
+
+ src/app/view-items/view-specific-item/page.tsx | 101 +++++++++++++++++++++++--
+ 1 file changed, 94 insertions(+), 7 deletions(-)
+
+commit e0a07504e912cf4d8f78612f3478b8abfb41cc2b
+Merge: 17afb3d 1c5548a
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 01:17:40 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 17afb3da89a01c83fc775ab3feb308071bc69536
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 27 01:17:27 2024 -0500
+
+    Made it so that the time zone would be set to New York time before anything else happens on these lambda funtions
+
+ src/lambda-functions/buy-now/src/index.mjs                  |  9 +++------
+ src/lambda-functions/fulfill-item/src/index.mjs             |  9 +++------
+ src/lambda-functions/place-bid/src/index.mjs                |  9 +++------
+ .../update-items-activity-status/src/index.mjs              | 13 +++++--------
+ 4 files changed, 14 insertions(+), 26 deletions(-)
+
+commit 1c5548a5a7376a2729fbe1b0e6d24e102ce71c9b
+Merge: fa18415 ae85b83
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 01:03:32 2024 -0500
+
+    Merge pull request #39 from AshkanGanj/update_close_account_lambda
+    
+    Update to contain buyer
+
+commit ae85b838b83ba2c8e19fd3b630efdfe4e8947fce
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 01:02:29 2024 -0500
+
+    Update to contain buyer
+
+ src/lambda-functions/close_account/src/index.mjs | 77 +++++++++++++++++-------
+ 1 file changed, 55 insertions(+), 22 deletions(-)
+
+commit fa184157df0ffbef2c70b9cb710f4b065b1d608a
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:57:42 2024 -0500
+
+    Update readme
+
+ README.md | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit 045ed704fe6eaabbde7406ce3f1008f894c94254
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:55:32 2024 -0500
+
+    Update readme
+
+ README.md | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+
+commit 53ccb7c30e3ea97276773b9e03bc5904dc9bf5e9
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:37:18 2024 -0500
+
+    update Readme
+
+ README.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit dae20e47cbf19d3284faf251f7cf51d87dcec425
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:34:37 2024 -0500
+
+    update README
+
+ README.md | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+commit 97af203c78589a34519a368972fa90d44432e6ba
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:31:03 2024 -0500
+
+    Update README
+
+ README.md | 18 ++++++++++++------
+ 1 file changed, 12 insertions(+), 6 deletions(-)
+
+commit f20c053f7da3b98227444abd1e92fec44d1da1d8
+Merge: 905b381 02f945f
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 00:20:55 2024 -0500
+
+    Merge branch 'main' into buyer/buy-now
+
+commit 905b3819c03ad839a8b1cd71ba9e053e8faf6f98
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 27 00:20:39 2024 -0500
+
+    Buy Now in Progress but not re-rendering the frontend correctly
+
+ src/app/view-items/view-specific-item/page.tsx | 254 ++++++++++++++++---------
+ 1 file changed, 168 insertions(+), 86 deletions(-)
+
+commit 02f945fde466bcfa6c13b673b8b471c04341e3ff
+Merge: 3fe57bf a69e6b4
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 27 00:17:17 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 3fe57bf7c533447caaa887a46a26b441809b98f9
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 27 00:17:16 2024 -0500
+
+    added buyers usecases
+
+ README.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit a69e6b40911246dee3e096468f3ad408ffbaf2c7
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:14:12 2024 -0500
+
+    Update README.md
+
+ README.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit d1b8d4117cd208561ae9da685baa4be402150b2e
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Wed Nov 27 00:08:46 2024 -0500
+
+    Update Navbar to show funds even if it is zero
+
+ src/app/components/Navbar.tsx | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit 87b4c76346609e14ccf00c31d401eb8bb17b792d
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 23:59:04 2024 -0500
+
+    Update Readme
+
+ README.md | 46 ++++++++++++++++++++++++++++++++++------------
+ 1 file changed, 34 insertions(+), 12 deletions(-)
+
+commit 2a8e38c347aaa122727424e692bf4558fca3c213
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 23:46:57 2024 -0500
+
+    Edit message in Navbar
+
+ src/app/components/Navbar.tsx | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+commit 33868330d394eb18b2f606ea810793bf9866c7c7
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 23:30:30 2024 -0500
+
+    Add "Create Account" link to Navbar for unauthenticated users
+
+ src/app/components/Navbar.tsx | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 141e80bd2c28b93323495a9004d71e85a186dc30
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 23:22:58 2024 -0500
+
+    Add buyer use-cases to README for item viewing and bidding
+
+ README.md | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit 2349030ad9fd9cf8da61d866167892709c7ee682
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 23:20:34 2024 -0500
+
+    Enhance login functionality by integrating useRouter for navigation and improving error handling
+
+ src/app/login-account/page.tsx | 42 ++++++++++++++++++------------------------
+ 1 file changed, 18 insertions(+), 24 deletions(-)
+
+commit da1a5591af2dfb565f78acd98c9f3443915ce94b
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 23:20:30 2024 -0500
+
+    Refactor Navbar component to improve session management and fund fetching logic
+
+ src/app/components/Navbar.tsx | 117 ++++++++++++++++++------------------------
+ 1 file changed, 49 insertions(+), 68 deletions(-)
+
+commit ae86d5a7336b50474b39ff3bc6fbea5005ac3f71
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 22:58:03 2024 -0500
+
+    Go back to previous version
+
+ src/app/components/Navbar.tsx  | 250 +++++++++++++++++++++++++++++------------
+ src/app/login-account/page.tsx |  44 ++++----
+ 2 files changed, 199 insertions(+), 95 deletions(-)
+
+commit aea203da896deb0fe63422568c28db762995ff0f
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 22:44:24 2024 -0500
+
+    added a new listener
+
+ README.md                      | 49 +++++++++++++++++++++++++++---------------
+ src/app/login-account/page.tsx | 43 ++++++++++++++++++++----------------
+ 2 files changed, 57 insertions(+), 35 deletions(-)
+
+commit 5a6c1fa34e74f3831727ec17ad0d1bf00d7f92cc
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 22:44:15 2024 -0500
+
+    fixed session problem in navbar
+
+ src/app/components/Navbar.tsx | 248 ++++++++++++------------------------------
+ 1 file changed, 69 insertions(+), 179 deletions(-)
+
+commit 210f65f13a9f14a0d06b9dd3e5966068a854b652
+Merge: 9b4021a cc43e26
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 22:21:28 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 9b4021a8bad953dbdbaf181f57fabb065c0e5010
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 22:21:26 2024 -0500
+
+    updated readme
+
+ README.md | 208 ++++++++++++++++++++++++++++----------------------------------
+ 1 file changed, 94 insertions(+), 114 deletions(-)
+
+commit cc43e26bb9edd515992eb2b302396f34685040b1
+Merge: 5c4394d 4bef801
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 21:37:37 2024 -0500
+
+    Merge branch 'main' into buyer/place-bid
+
+commit 5c4394d95b3c898741ab00828ac7681691cd60d6
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 21:37:21 2024 -0500
+
+    Implemented the front-end functionality for the "place-bid" use-case
+
+ src/app/view-items/view-specific-item/page.tsx | 217 +++++++++++++++++++------
+ src/lambda-functions/place-bid/src/index.mjs   |  12 +-
+ 2 files changed, 179 insertions(+), 50 deletions(-)
+
+commit 4bef8013f196590b2aa1d716d45605d5c00d9f21
+Merge: d8ce2fb e445954
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 19:25:39 2024 -0500
+
+    Merge pull request #38 from AshkanGanj/login_account_buyer
+    
+    Fix Navbar
+
+commit e44595457fdd9a6dcbf120b48516805135f389e8
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 19:24:24 2024 -0500
+
+    Fix Navbar
+
+ src/app/components/Navbar.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit d8ce2fbe0ed88121e0acf1dc5ebb63d4d8407939
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 19:06:37 2024 -0500
+
+    Fix login for redirecting
+
+ src/app/login-account/page.tsx | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit e1f51ebaef27bdbc1fdc20430687c5798354b8ef
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 26 19:03:57 2024 -0500
+
+    Fix login
+
+ src/app/login-account/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cfdb60d1ff565a79aff1856963844bc98903286f
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 17:13:27 2024 -0500
+
+    updated landing page
+
+ src/app/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 31f6b459b4a2cff8ec9e8e2eb5d049ea65aed11f
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 17:01:42 2024 -0500
+
+    refactor bidding logic to simplify conditions for placing bids
+
+ src/lambda-functions/view-specific-item/src/index.mjs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit b3cd6204c0490a33645c34a63f8875517da4268a
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 17:01:08 2024 -0500
+
+    add Lambda function to retrieve item details, images, and bidding history
+
+ .../view-specific-item/src/index.mjs               | 161 +++++++++++++++++++++
+ 1 file changed, 161 insertions(+)
+
+commit dabef120dcbb8a7df4a136f6bdea2d26976f60f9
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 17:01:04 2024 -0500
+
+    enhance item retrieval to include highest bids and organize images
+
+ src/lambda-functions/view-items/src/index.mjs | 38 +++++++++++++++++++++------
+ 1 file changed, 30 insertions(+), 8 deletions(-)
+
+commit 87e83457ed720aeb8bce8ec6fb3b9cb3f6ddd481
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:58:48 2024 -0500
+
+    fix welcome page
+
+ src/app/components/Navbar.tsx | 6 +-----
+ src/app/page.tsx              | 2 +-
+ 2 files changed, 2 insertions(+), 6 deletions(-)
+
+commit 2bc4a969d46d1b0ec5b1ee73ac943b00860ecec3
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:58:04 2024 -0500
+
+    update view
+
+ src/app/view-items/view-specific-item/page.tsx | 49 +++++++++-----------------
+ 1 file changed, 16 insertions(+), 33 deletions(-)
+
+commit f3f7c7130e962626d7f3e533031b9075badfce38
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:55:59 2024 -0500
+
+    add publish and exp dates
+
+ src/app/view-items/page.tsx | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit b6e9abbfebebc21416800d9c8081792a812c9536
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:46:00 2024 -0500
+
+    removed buyer details
+
+ src/app/view-items/view-specific-item/page.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 2e575c3d6f60b79cb01b46afab998ef1564ba11e
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:44:58 2024 -0500
+
+    fixed highest bid
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4ae29d725262ba9ec746c72c319f943471cf52e1
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:38:47 2024 -0500
+
+    added readme
+
+ README.md | 143 +++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 80 insertions(+), 63 deletions(-)
+
+commit 564cf551177f3fc70cca388ddc3a4a8a72dfdaf8
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:30:44 2024 -0500
+
+    add buy now feature
+
+ src/app/view-items/view-specific-item/page.tsx | 171 +++++++++++++------------
+ 1 file changed, 88 insertions(+), 83 deletions(-)
+
+commit e6c7e513e582e8f8c5974812ac4fa8d1b2e558cb
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:24:13 2024 -0500
+
+    Added item Type and highest bid
+
+ src/app/view-items/page.tsx | 100 +++++++++++++++++++++++---------------------
+ 1 file changed, 52 insertions(+), 48 deletions(-)
+
+commit f0b71bad9fe563cfdb9417579f93afbb714a60a4
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 16:09:20 2024 -0500
+
+    Add Price range filtering
+
+ src/app/view-items/page.tsx | 45 ++++++++++++++++++++++++++++++++-------------
+ 1 file changed, 32 insertions(+), 13 deletions(-)
+
+commit fdf203f10dbd7bfa2c136cd09d1287960770269c
+Merge: c36c0bd b01357b
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 16:00:49 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit c36c0bd9d157d8cad627d1a5708f5ad135764df0
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 16:00:46 2024 -0500
+
+    Fixed a couple of issues regarding the item's active status on "view-item" page
+
+ src/app/view-items/view-specific-item/page.tsx | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+commit b01357bec5c6b27278ac8b5e9579f31799ccb9d5
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:45:37 2024 -0500
+
+    change padding
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2dcd093e0c93095e58e0b6ad4cf4c2608bf94ed1
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:45:13 2024 -0500
+
+    Added itemID to card
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 76efcd33ca828cccb83a87aecbbfc00dbdaa1afa
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:41:26 2024 -0500
+
+    updated the font size
+
+ src/app/components/Navbar.tsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 6036ceedea400055d310c34b5afbfc9cd45c5c26
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:39:45 2024 -0500
+
+    moved bid info to detail page
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7db821ce804eef799039c75697243f6a5f5bd840
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:36:09 2024 -0500
+
+    Only show view-details if user is buyer
+
+ src/app/view-items/page.tsx | 16 +++++++++-------
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+
+commit 352ebc617c699e2f2b21157392f0f9c1407f2bab
+Merge: 390f3dc 5d19bf8
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:34:38 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 390f3dc67d70a7869023457be618f4929573a7e0
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 15:34:36 2024 -0500
+
+    removed onClick for cards
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5d19bf80b1d3c622a94e848aec558629f802e402
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 14:53:47 2024 -0500
+
+    Fixed issues with the date comarison for when publishing items is allowed, and enforced a 30-minute period between the current time and the bid end date to be able to publish an item
+
+ src/app/review-items/specific-item/page.tsx | 106 ++++++++++++++++++----------
+ 1 file changed, 68 insertions(+), 38 deletions(-)
+
+commit 1287d144df3d9e4e79c01447f362096cc8184e49
+Merge: 0491aec aa906f3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Tue Nov 26 14:35:57 2024 -0500
+
+    Merge pull request #37 from AshkanGanj/seller/review-items
+    
+    Added picture carousel to review items cards
+
+commit aa906f38e7d4d4ac624f4500b698dc1a233ccda3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Tue Nov 26 14:35:11 2024 -0500
+
+    Added picture carousel to review items cards
+
+ src/app/review-items/ReviewItemCardComponent.tsx | 51 +++++++++++++++++++-----
+ 1 file changed, 41 insertions(+), 10 deletions(-)
+
+commit 0491aec0004ffff885875706e48379b63681f776
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 07:27:13 2024 -0500
+
+    Made it so that the expired items' activity statuses would be updated in real time before the "view items" and "view specific items" pages were displayed.
+
+ src/app/view-items/page.tsx                    | 34 ++++++++++---
+ src/app/view-items/view-specific-item/page.tsx | 67 +++++++++++++++++---------
+ 2 files changed, 72 insertions(+), 29 deletions(-)
+
+commit dfd19e7241c63c0604dda153dc581b24079db208
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 26 05:19:52 2024 -0500
+
+    Fixed a small issue with the buyer's bidding history table.
+
+ src/app/view-items/view-specific-item/page.tsx | 16 +++++++++++++---
+ 1 file changed, 13 insertions(+), 3 deletions(-)
+
+commit 4ee8bcf664c632fefd9ca74c924d84e0ce3b2522
+Merge: d91e535 8a9f22a
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 26 00:59:27 2024 -0500
+
+    Merge pull request #36 from AshkanGanj/buyer/view-specific-item
+    
+    Buyer/view specific item
+
+commit 8a9f22abd5bacd560fe965afcff4aa1e4ed17369
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 00:59:02 2024 -0500
+
+    Add view-specific item
+
+ src/app/view-items/view-specific-item/page.tsx | 172 +++++++++++++++++++++++++
+ src/app/view-specific-item/[itemID]/page.tsx   |  23 ----
+ 2 files changed, 172 insertions(+), 23 deletions(-)
+
+commit fc2119c60aa17af0bea1c74dca3a97e79fcb7d46
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 26 00:58:48 2024 -0500
+
+    fix itemID passing
+
+ src/app/view-items/page.tsx | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+commit 474ddd52f6e7c47d25df354a9979ef5be5d9e06d
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Nov 25 22:10:31 2024 -0500
+
+    pass itemID To view page
+
+ src/app/view-specific-item/[itemID]/page.tsx | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+
+commit 020f70714867cf02ab8a27ac57968cb27fa608ab
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Nov 25 22:09:28 2024 -0500
+
+    Add link to detailed view
+
+ src/app/view-items/page.tsx | 119 +++++++++++++++++++-------------------------
+ 1 file changed, 52 insertions(+), 67 deletions(-)
+
+commit d91e53524fe3b5f1fa6bc9b5627f8745a580eea2
+Merge: 173cd8d 6efd952
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 21:08:10 2024 -0500
+
+    Merge pull request #35 from AshkanGanj/seller/review-items
+    
+    Showed a spinner while the items were being fetched.
+
+commit 6efd952f245cf50b85204cfec1e781f95c72f4c1
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 21:07:03 2024 -0500
+
+    Showed a spinner while the items were being fetched
+
+ src/app/review-items/page.tsx               | 6 +++++-
+ src/app/review-items/specific-item/page.tsx | 3 ++-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+commit 173cd8d2814baeafdc1a076bcd926a52fa4bf582
+Merge: 553fe2a a9c048e
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 19:58:50 2024 -0500
+
+    Merge pull request #34 from AshkanGanj/update_add_funds
+    
+    Fix bug
+
+commit a9c048eae62d21d1f50f4f59a45cfcd8f0ef6992
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 19:58:00 2024 -0500
+
+    Fix bug
+
+ src/app/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 553fe2a844fcd8310d555180bc47c8342494222b
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 19:40:30 2024 -0500
+
+    Fix bug for Navbar "Welcome message"
+
+ src/app/components/Navbar.tsx | 56 ++++++++++++++++++++-----------------------
+ src/app/page.tsx              |  2 +-
+ 2 files changed, 27 insertions(+), 31 deletions(-)
+
+commit 3df6ea18d4c7b8b84d02d6301fa0ea1681fef5e7
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 19:19:58 2024 -0500
+
+    Update Navbar funds on Add Funds action
+
+ src/app/add-funds/page.tsx    | 85 ++++++++++++++++++++++---------------------
+ src/app/components/Navbar.tsx | 37 +++++++++++--------
+ 2 files changed, 65 insertions(+), 57 deletions(-)
+
+commit 9f1228885694213e1d3ff72877f536405c9af7b1
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 19:03:50 2024 -0500
+
+    Fix bug to show fund if it is 0.
+
+ src/app/components/Navbar.tsx | 82 ++++++++++++++++++++++---------------------
+ 1 file changed, 42 insertions(+), 40 deletions(-)
+
+commit 64fb947f48eb9286b45c80dcfb164327499bb3f9
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 18:23:23 2024 -0500
+
+    Made it so that we're not setting the item bids to something null when item bids are not returned
+
+ src/app/review-items/specific-item/page.tsx | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 354629200485533e297a8fed0d6655fe1853f406
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 17:45:38 2024 -0500
+
+    Added in extra protection for incorrect casing of activity status on the review items page.
+
+ src/app/review-items/page.tsx               | 2 +-
+ src/app/review-items/specific-item/page.tsx | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 1ab5bb99d0e19e494dba4aacece54fd64c8ef94c
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 17:35:18 2024 -0500
+
+    Fix bug: Prevent same username for Seller and Buyer
+
+ src/app/create-account/page.tsx                   | 15 +++----------
+ src/lambda-functions/create_account/src/index.mjs | 26 ++++++-----------------
+ 2 files changed, 9 insertions(+), 32 deletions(-)
+
+commit 00e6462483b77129791d38d3cc1b5176a761c0a1
+Merge: 08caf3b e4f2a09
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 17:14:30 2024 -0500
+
+    Merge pull request #33 from AshkanGanj/seller/fulfill-item
+    
+    Styling Improvements to Bids Table
+
+commit e4f2a098e5fc0215c572ce88cf7f9ab4664784b1
+Merge: 495316f 08caf3b
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 17:10:37 2024 -0500
+
+    Merge branch 'main' into seller/fulfill-item
+
+commit 495316f74e77e9e2a66b38aa572df7dc8b157519
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 17:10:07 2024 -0500
+
+    Styling improvements to bids table
+
+ src/app/review-items/specific-item/Table.tsx | 12 +++++-------
+ src/app/review-items/specific-item/page.tsx  | 21 ++++++++++++++-------
+ 2 files changed, 19 insertions(+), 14 deletions(-)
+
+commit 08caf3b5a0a8f11b7677b8fe4106a1ef23382589
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:52:07 2024 -0500
+
+    Update close-account Lambda function to handle Buyer close accounts
+
+ .../get-buyer-information/src/index.mjs            | 87 ++++++++++++++++++++++
+ 1 file changed, 87 insertions(+)
+
+commit ba0bfb395be8c71fdae41fb1662c1817489d110e
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:51:45 2024 -0500
+
+    Update create-account Lambda function to handle Buyer login
+
+ src/lambda-functions/login_account/src/index.mjs | 45 +++++++++++++++++-------
+ 1 file changed, 33 insertions(+), 12 deletions(-)
+
+commit baf004be1c4b6c35d9a1b80bd602abf78a351511
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:51:34 2024 -0500
+
+    Update create-account Lambda function to handle Buyer accounts
+
+ src/lambda-functions/create_account/src/index.mjs | 30 +++++++++++++++++++++--
+ 1 file changed, 28 insertions(+), 2 deletions(-)
+
+commit 1d173ee18a20939fba797eb8d885ebb7acd0de7f
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:50:38 2024 -0500
+
+    Add lambda function related to the add funds
+
+ src/lambda-functions/add-funds/src/index.mjs | 88 ++++++++++++++++++++++++++++
+ 1 file changed, 88 insertions(+)
+
+commit 027c7e8ce15ea816c264240cbe3287ceca4166ce
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:50:15 2024 -0500
+
+    Update Navbar: Implement close account, show fund, and add fund option for Buyer.
+
+ src/app/components/Navbar.tsx | 103 +++++++++++++++++++++++++++---------------
+ 1 file changed, 66 insertions(+), 37 deletions(-)
+
+commit 33e68c438368e0477294e414b59d614fa894694c
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:47:56 2024 -0500
+
+    Implement Buyer add funds functions
+
+ src/app/add-funds/page.tsx | 176 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 176 insertions(+)
+
+commit 6f75500f82444115868a0d5659926252d744d83a
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:47:21 2024 -0500
+
+    Update login account for Buyer
+
+ src/app/login-account/page.tsx | 102 +++++++++++++++++++++--------------------
+ 1 file changed, 53 insertions(+), 49 deletions(-)
+
+commit 5d8ea3da0b065d56fdbc3e0f20738c106bcf36c4
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Mon Nov 25 15:46:57 2024 -0500
+
+    Update create account for Buyer
+
+ src/app/create-account/page.tsx | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 76b13f634120c45419daa17455978e75dc3959e0
+Merge: 8d69372 fea461d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 15:59:44 2024 -0500
+
+    Merge pull request #32 from AshkanGanj/seller/fulfill-item
+    
+    Added bid table to view bids
+
+commit fea461d7133b6c5ccd9b20877349f48127f7c170
+Merge: 6b72bbb 8d69372
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 15:58:25 2024 -0500
+
+    Merge branch 'main' into seller/fulfill-item
+
+commit 8d69372807b74f1218626b15d91ab628100874a5
+Merge: ac1a945 1e029b2
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 15:57:55 2024 -0500
+
+    Merge pull request #31 from AshkanGanj/seller/review-items-specific-item
+    
+    Updated the "review-items-specific-item" to return empty arrays instead of null when not necssary
+
+commit 6b72bbb31523674ed77129a2da373e61fa806a8d
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 25 15:57:19 2024 -0500
+
+    Added bid table to view bids
+
+ src/app/components/Navbar.tsx                | 10 ++--
+ src/app/review-items/specific-item/Table.tsx | 78 ++++++++++++++++++++++++++++
+ src/app/review-items/specific-item/page.tsx  | 27 +++-------
+ 3 files changed, 91 insertions(+), 24 deletions(-)
+
+commit 1e029b20f4e057b8a1e977fb37e61ed634764031
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 15:25:38 2024 -0500
+
+    Updated the "review-items-specific-item" to return empty arrays instead of nulls when not necessary
+
+ src/lambda-functions/review-items-specific-item/src/index.mjs | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+
+commit ac1a945317f4f9bfa1a47ffe3f6c668e34056897
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Nov 25 13:20:46 2024 -0500
+
+    Fix userType casing in Navbar component for consistency
+
+ src/app/components/Navbar.tsx | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 8867b66e161896d962748b1eec1489ac8df891c6
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 11:55:45 2024 -0500
+
+    Potential fix for the view-items frontend issue
+
+ src/app/review-items/page.tsx | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit cde0b772e97d0af0a3c0301a5113d1f6903a15e8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 25 11:47:46 2024 -0500
+
+    Wrapped the review-items in a try catch block on the frontend
+
+ src/app/review-items/page.tsx | 26 +++++++++++++++++---------
+ 1 file changed, 17 insertions(+), 9 deletions(-)
+
+commit 1f53d4b5f606fd5a774e63ed177f3021f6099e4d
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Mon Nov 25 10:59:57 2024 -0500
+
+    fix view-item page bug
+
+ src/app/view-items/page.tsx | 135 ++++++++++++++++++++++----------------------
+ 1 file changed, 69 insertions(+), 66 deletions(-)
+
+commit d2c6113053b88f64d66caf4f13c0b5d80ec56064
+Merge: 965af22 f51afe3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 16:16:03 2024 -0500
+
+    Merge pull request #30 from AshkanGanj/seller/fulfill-item
+    
+    Updated the "fulfill-item" lambda function to return the whole updated item.
+
+commit f51afe3e120af6892c2f6c27dd7f1ad586072ca2
+Merge: 1376d0f 965af22
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 16:13:22 2024 -0500
+
+    Merge branch 'main' into seller/fulfill-item
+
+commit 1376d0f1e5a7eb96f9dc765fea6b10dfa07d0df6
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 16:12:56 2024 -0500
+
+    Updated the "fulfill-item" lambda function to return the whole updated item
+
+ src/lambda-functions/fulfill-item/src/index.mjs | 38 +++++++++++++++++++++++--
+ 1 file changed, 35 insertions(+), 3 deletions(-)
+
+commit 965af22f708fbce48db33301525468ba15798cd6
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 16:03:37 2024 -0500
+
+    Made the time zone set to new york before doing anything else on those lambda functions
+
+ src/lambda-functions/buy-now/src/index.mjs                            | 1 +
+ src/lambda-functions/fulfill-item/src/index.mjs                       | 1 +
+ src/lambda-functions/update-items-activity-status/{ => src}/index.mjs | 1 +
+ 3 files changed, 3 insertions(+)
+
+commit 03976e0acc23e088aa43a39a57be061fa68e4235
+Merge: 0d5a060 011c334
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 15:42:50 2024 -0500
+
+    Merge pull request #29 from AshkanGanj/seller/archive-item
+    
+    Rendered different labels for buy now vs. bid items
+
+commit 011c3347e86797dac47ed6993e6bc8d712f2ce1d
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 15:41:08 2024 -0500
+
+    Rendered different labels for buy now vs. bid items
+
+ src/app/review-items/specific-item/page.tsx | 27 ++++++++++++++-------------
+ 1 file changed, 14 insertions(+), 13 deletions(-)
+
+commit 0d5a0602c826ddb95f9da71381a4e296a336fcb5
+Merge: 17ef38f 32e1f33
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 15:19:06 2024 -0500
+
+    Merge pull request #28 from AshkanGanj/seller/fulfill-item
+    
+    Added the missing information required for fulfilled items
+
+commit 32e1f33ea736262d9f5399646727bbc72e741ebf
+Merge: 71a9841 17ef38f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 15:18:04 2024 -0500
+
+    Merge branch 'main' into seller/fulfill-item
+
+commit 71a9841ce25e76e71839bf4c535900ccb5fe7e6e
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 15:17:53 2024 -0500
+
+    Added the missing information required for fulfilled items
+
+ src/app/review-items/specific-item/page.tsx | 24 +++++++++++++++++++++---
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+
+commit 17ef38fa43475e6b4a38091bdf8f1cd02236fe52
+Merge: e6216d5 b4f19d9
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 14:59:50 2024 -0500
+
+    Merge pull request #27 from AshkanGanj/seller/archive-item
+    
+    Made archive item button
+
+commit b4f19d9810099bd24ecd3b5f0e10bd2a6863e40b
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 14:58:37 2024 -0500
+
+    Made archive item button
+
+ src/app/review-items/specific-item/page.tsx | 67 ++++++++++++++++++++++++++++-
+ 1 file changed, 66 insertions(+), 1 deletion(-)
+
+commit e6216d582e6673442b97bace0b8409ee67dd842d
+Merge: 57f8781 c4b739e
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 13:44:21 2024 -0500
+
+    Merge pull request #26 from AshkanGanj/seller/fulfill-item
+    
+    Added the fulfill item button and handled displaying the most recent seller funds correctly
+
+commit c4b739ebbefe928f12232846976e0f1a7611716b
+Merge: 5a167cf 57f8781
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 13:41:24 2024 -0500
+
+    Merge branch 'main' into seller/fulfill-item
+
+commit 57f87812174a11bb2dcfb86dcd138782d048bdbb
+Merge: be096c4 596e73e
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 13:40:59 2024 -0500
+
+    Merge pull request #25 from AshkanGanj/seller/archive-item
+    
+    Adjusted the "Archive-Item" lambda function to allow failed items to be archived as well
+
+commit 5a167cf92d3a8d3fe4d97fbe5e57ce9d14e269a1
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 13:40:03 2024 -0500
+
+    Added fulfill item button
+
+ src/app/components/Navbar.tsx               | 51 ++++++++--------
+ src/app/review-items/specific-item/page.tsx | 95 ++++++++++++++++++++---------
+ 2 files changed, 92 insertions(+), 54 deletions(-)
+
+commit 596e73e750973399ee0105a72b9b50a1576a2334
+Merge: 2ae48ff be096c4
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 13:37:07 2024 -0500
+
+    Merge branch 'main' into seller/archive-item
+
+commit 2ae48ffaa6f721bf880c0ee10e87b52dcfadcc45
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 13:36:45 2024 -0500
+
+    Update index.mjs
+
+ src/lambda-functions/archive-item/src/index.mjs | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit be096c4e87e7e9e7b04df1cd5def36620c015748
+Merge: 40aa560 30fe103
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 12:39:52 2024 -0500
+
+    Merge pull request #24 from AshkanGanj/seller/edit-item
+    
+    Made the necessary changes to allow users to decide whether to make the item a Buy-Now item when editing it and fixed the format of the dates shown when reviewing a specific item.
+
+commit 30fe10387247b70e863815f61c7b212c8f132b38
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 12:38:34 2024 -0500
+
+    Resolved merge conflict
+
+ src/app/add-item/page.tsx | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+commit cca39dd0b1a7b0d1aa6ae107d4e1a202535bbe42
+Merge: b70a2d4 40aa560
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 24 12:34:03 2024 -0500
+
+    Merge branch 'main' into seller/edit-item
+
+commit b70a2d49ce064d0b74e4443b1dbc37a8c4d6d4fe
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 12:22:32 2024 -0500
+
+    Made some more modifications to accommodate for the "Buy Now" use case
+
+ src/app/add-item/page.tsx                             | 2 +-
+ src/app/review-items/specific-item/edit-item/page.tsx | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 93e23f27f03627eef404b6482ec1d5db0ff3d09d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 12:12:33 2024 -0500
+
+    Re-added the toggle switch used to decide whether an added item is a Buy-Now item or not.
+
+ src/app/add-item/page.tsx                             | 11 +++++++++++
+ src/app/review-items/specific-item/edit-item/page.tsx |  2 +-
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+
+commit ef0ee4118a999e0193d38cf523e86b039073fe28
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 24 01:15:51 2024 -0500
+
+    Made the necessary changes to allow users to decide whether to make the item a Buy-Now item when editing and fixed the format of the date shown when viewing a specific item
+
+ src/app/review-items/page.tsx                      | 37 ++++++++++++++-----
+ .../review-items/specific-item/edit-item/page.tsx  | 14 ++++++++
+ src/app/review-items/specific-item/page.tsx        | 42 +++++++++++++++++++---
+ src/app/view-items/page.tsx                        |  2 ++
+ 4 files changed, 82 insertions(+), 13 deletions(-)
+
+commit 40aa560034696d29e0a60f344599329f179a82f2
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 23:58:30 2024 -0500
+
+    Added the required functionality to add the "isBuyNow" attribute to items when adding them them
+
+ src/app/add-item/page.tsx                   | 13 ++++++++++++-
+ src/app/review-items/specific-item/page.tsx |  1 +
+ 2 files changed, 13 insertions(+), 1 deletion(-)
+
+commit 701519c580bb4ccc4cea2c1d250ab9db25fd6529
+Merge: 54f0943 149ba71
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 22:39:28 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit 54f09431d52cee01432b4e8b04acfca19ae3460c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 22:38:26 2024 -0500
+
+    Update package-lock.json
+
+ package-lock.json | 17 +++++++++--------
+ 1 file changed, 9 insertions(+), 8 deletions(-)
+
+commit 149ba7159b609698344f6eeec325fd502044c30c
+Merge: 54e132f 27ec4ae
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 22:38:16 2024 -0500
+
+    Merge pull request #23 from AshkanGanj/get-seller-information
+    
+    Added button to show the seller's funds
+
+commit 27ec4ae7d83a3247f2490c65812b1edd2a35ae69
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 22:37:22 2024 -0500
+
+    Added button to show the seller's funds
+
+ package-lock.json             | 16 ++++++-------
+ src/app/components/Navbar.tsx | 52 ++++++++++++++++++++++++++++++++++++-------
+ 2 files changed, 52 insertions(+), 16 deletions(-)
+
+commit 54e132f45384336c0db7a43b0ad623b9c1e863d3
+Merge: 9f86a6e 3c13b20
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 21:19:57 2024 -0500
+
+    Merge pull request #22 from AshkanGanj/get-seller-information
+    
+    Added get-seller-information lambda function
+
+commit 3c13b200a2ad9b9ce2a783c5f48a06e5226995db
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 21:19:00 2024 -0500
+
+    Added get-seller-information lambda function
+
+ .../get-seller-information/src/index.mjs           | 87 ++++++++++++++++++++++
+ 1 file changed, 87 insertions(+)
+
+commit 9f86a6e2219954f8437dc6e40b521258a5f437b3
+Merge: 4fdaac2 cad1345
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:58:29 2024 -0500
+
+    Merge pull request #21 from AshkanGanj/seller/archive-item
+    
+    Added the "archive-item" lambda function
+
+commit cad1345d4913743df01319b8f64189744001a922
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:57:29 2024 -0500
+
+    Added the "archive-item" lambda function
+
+ src/lambda-functions/archive-item/src/index.mjs | 151 ++++++++++++++++++++++++
+ 1 file changed, 151 insertions(+)
+
+commit 4fdaac2e441399513a8999b192c34c1074928edf
+Merge: 702d0d6 a35b14c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:52:14 2024 -0500
+
+    Merge pull request #20 from AshkanGanj/seller/fulfill-item
+    
+    Added fulfill-item lambda function
+
+commit a35b14c2cdc8e63d5406b067e28fe61c51e81fe4
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:51:19 2024 -0500
+
+    Added fulfill-item lambda function
+
+ src/lambda-functions/fulfill-item/src/index.mjs | 221 ++++++++++++++++++++++++
+ 1 file changed, 221 insertions(+)
+
+commit 702d0d63da4b0a171fd93557cdd7cce748cd823c
+Merge: 225265a 9d7be68
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:47:08 2024 -0500
+
+    Merge pull request #19 from AshkanGanj/buyer/buy-now
+    
+    Added the buy now lambda function
+
+commit 9d7be68ad19d7770ac183d21f85b93d85a780382
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:46:21 2024 -0500
+
+    Added the buy now lambda function
+
+ src/lambda-functions/buy-now/src/index.mjs | 301 +++++++++++++++++++++++++++++
+ 1 file changed, 301 insertions(+)
+
+commit 225265aca8dc461b733281b102887b65dbe85352
+Merge: 86ad183 c0997b9
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:38:23 2024 -0500
+
+    Merge pull request #18 from AshkanGanj/update-items-activity-status
+    
+    added the "update-items-activity-status" lambda function
+
+commit c0997b9cb2a38c77111b27efb86dd6e59a91736d
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:37:37 2024 -0500
+
+    added the "update-items-activity-status" lambda function
+
+ .../update-items-activity-status/index.mjs         | 199 +++++++++++++++++++++
+ 1 file changed, 199 insertions(+)
+
+commit 86ad18371acce98d1ebb44a77179dfd537c66f50
+Merge: c8306e9 6d83323
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:35:41 2024 -0500
+
+    Merge pull request #17 from AshkanGanj/buyer/place-bid
+    
+    added the "place-bid" lambda function
+
+commit 6d833230958023b930d314773b465bba630c9d00
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:34:56 2024 -0500
+
+    added the "place-bid" lambda function
+
+ src/lambda-functions/place-bid/src/index.mjs | 317 +++++++++++++++++++++++++++
+ 1 file changed, 317 insertions(+)
+
+commit c8306e9e82778de79988dc45f2db4e62d04e02a7
+Merge: 1925fad d88a77c
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sat Nov 23 17:33:14 2024 -0500
+
+    Merge pull request #16 from AshkanGanj/seller/edit-item
+    
+    added the "edit-item" lambda function
+
+commit d88a77c752641da31b7cb2f1362afd6149f70590
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:31:13 2024 -0500
+
+    added the "edit-item" lambda function
+
+ src/lambda-functions/edit-item/src/index.mjs | 149 +++++++++++++++++++++++++++
+ 1 file changed, 149 insertions(+)
+
+commit 1925fad1c796dc848802dd3931043e713bdcaaaf
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sat Nov 23 17:19:29 2024 -0500
+
+    Edited add-item lambda function to accommodate buy now items
+
+ git-report.txt                              | 660 ++++++++++++++++++++++++++++
+ next.config.ts                              |   1 +
+ src/app/view-items/page.tsx                 |   2 +-
+ src/lambda-functions/add-item/src/index.mjs |   6 +-
+ 4 files changed, 665 insertions(+), 4 deletions(-)
+
+commit bcd3360e0d11f32508d69d56b5542165fa6a59a5
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Thu Nov 7 17:32:02 2024 -0500
+
+    Added comment citing website for add-item form styling
+
+ src/app/add-item/page.tsx | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 5949bd02124b0db330ffdcad6e5cc70727feb3bd
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Thu Nov 7 11:38:40 2024 -0500
+
+    updated readme.
+
+ README.md | 82 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 79 insertions(+), 3 deletions(-)
+
+commit f036cd1298814c32cb4b0e01ea6e3cadac29b50c
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Thu Nov 7 09:56:46 2024 -0500
+
+    Add lambda functions related to the account (Create, login and close)
+
+ src/lambda-functions/close_account/src/index.mjs  | 84 ++++++++++++++++++++
+ src/lambda-functions/create_account/src/index.mjs | 81 +++++++++++++++++++
+ src/lambda-functions/login_account/src/index.mjs  | 95 +++++++++++++++++++++++
+ 3 files changed, 260 insertions(+)
+
+commit c9278db69dae39a3979aacbeaa71100853f6a674
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 22:42:00 2024 -0500
+
+    Fix the misspelled "Welcome"
+
+ src/app/page.tsx            | 2 +-
+ src/app/view-items/page.tsx | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit ef778cddd53580669f2127e5d2008953f7f23946
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 22:30:27 2024 -0500
+
+    fix the close account
+
+ src/app/close-account/page.tsx |  91 -------------------------
+ src/app/components/Navbar.tsx  | 147 ++++++++++++++++++++++++++++++-----------
+ 2 files changed, 110 insertions(+), 128 deletions(-)
+
+commit 205968089672273e5b9b9ce1c43fabd6eb546247
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 21:31:37 2024 -0500
+
+    add Lambda function to retrieve active items with associated images
+
+ src/lambda-functions/view-items/src/index.mjs | 82 +++++++++++++++++++++++++++
+ 1 file changed, 82 insertions(+)
+
+commit e5309520ec4de17247df69c035a4cf5f454c7edb
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 20:00:41 2024 -0500
+
+    fix close account redirect
+
+ src/app/close-account/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a1f1744acb4ae548e9d6c1eccd7c9ff5d5beac3a
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:53:33 2024 -0500
+
+    fix login bug
+
+ src/app/login-account/page.tsx | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit 04b21c2842270aaf008b8a9dee185ec492dfa1d1
+Merge: f4cc9b8 ed40855
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:51:54 2024 -0500
+
+    Merge branch 'main' of https://github.com/AshkanGanj/CS509-Project
+
+commit f4cc9b85cc0296a0e3cff1e3d6666e53b551ce29
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:51:53 2024 -0500
+
+    use router for navigation after account closure and clean up session data
+
+ src/app/close-account/page.tsx | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit 35710cfff32fbfbcfd8801eebbee19979dffb03c
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:50:00 2024 -0500
+
+    fix login bug
+
+ src/app/login-account/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ed40855ce4d267e8ba0a83d56f2b85020ef64e6f
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:38:34 2024 -0500
+
+    fix routing
+
+ src/app/close-account/page.tsx | 9 ++++++---
+ src/app/login-account/page.tsx | 5 +++--
+ 2 files changed, 9 insertions(+), 5 deletions(-)
+
+commit 4bf5d853b24bdb5e00cb67c84f542a1627a6caef
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 19:34:55 2024 -0500
+
+    Fix close account
+
+ src/app/close-account/page.tsx | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+
+commit 3ea56d453dd693335fca1fd548480b75ebfa2343
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Wed Nov 6 18:49:32 2024 -0500
+
+    Fix close account message
+
+ src/app/close-account/page.tsx | 5 ++---
+ src/app/components/Navbar.tsx  | 4 ++--
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+commit 30d6d49b61c2c124fd04bc9d18f965c69a07cea8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 18:37:30 2024 -0500
+
+    changed all the routes to use "router"
+
+ src/app/close-account/page.tsx |  4 +++-
+ src/app/components/Navbar.tsx  | 12 ++++++++----
+ 2 files changed, 11 insertions(+), 5 deletions(-)
+
+commit 2e2ca1d3268cb37926459a5605a20618be6320da
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 17:36:44 2024 -0500
+
+    added the required scripts to be able to "build" the folder we need to be able to upload our application on our AWS s3 bucket, and wrapped the sessionStorage items in a "useEffect" to avoid rendering issues when generating that folder
+
+ package-lock.json              | 5 +++++
+ src/app/close-account/page.tsx | 9 +++++++--
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+
+commit 175eb03221de44f264c71012bbdd768ca9fa2893
+Merge: d025cf6 2259a3e
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 17:14:02 2024 -0500
+
+    Merge pull request #15 from AshkanGanj/lambda-functions
+    
+    Committed my unpublished-item lambda function
+
+commit 2259a3eb81b2fed5d15930456a4630d23cb97125
+Merge: 83ca29d d025cf6
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 17:12:38 2024 -0500
+
+    Merge branch 'main' into lambda-functions
+
+commit 83ca29dc8806bf6b5b728d3c56c31c836c455e10
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 17:12:23 2024 -0500
+
+    Committing unpublished-item lambda function
+
+ src/lambda-functions/unpublish-item/src/index.mjs | 157 ++++++++++++++++++++++
+ 1 file changed, 157 insertions(+)
+
+commit d025cf624e1d72f9967cf041b8160af1e470fce5
+Merge: 736b9be 2bfefd5
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 17:02:58 2024 -0500
+
+    Merge pull request #14 from AshkanGanj/lambda-functions
+    
+    Now committing my lambda functions
+
+commit 2bfefd55d3dda20468330db182bd321de80976f1
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 17:00:51 2024 -0500
+
+    Now committing my lambda functions
+
+ .../add-item-picture/src/index.mjs                 | 126 +++++++++++++++++
+ src/lambda-functions/add-item/src/index.mjs        | 106 ++++++++++++++
+ src/lambda-functions/publish-item/src/index.mjs    | 152 +++++++++++++++++++++
+ .../remove-item-picture/src/index.mjs              | 133 ++++++++++++++++++
+ .../review-items-specific-item/src/index.mjs       | 128 +++++++++++++++++
+ src/lambda-functions/review-items/src/index.mjs    |  81 +++++++++++
+ src/lambda-functions/upload-url/src/index.mjs      |  47 +++++++
+ 7 files changed, 773 insertions(+)
+
+commit 736b9beba60f9775c4f36b1656bed34e8203dbb6
+Merge: d05818e 77761c3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 16:20:29 2024 -0500
+
+    Merge pull request #13 from AshkanGanj/customer/view-items
+    
+    Fixed the bug due to the fact that "PublishedDate" was mistaken with …
+
+commit 77761c3e902ab7fae83cce7da6a53f030af6cb0f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 16:18:46 2024 -0500
+
+    Fixed the bug due to the fact that "PublishedDate" was mistaken with "BidStartDate", and reformatted all the timestamps to include the times in addition to the dates on the "view-items" page
+
+ src/app/view-items/page.tsx | 30 ++++++++++++++++++++++++------
+ 1 file changed, 24 insertions(+), 6 deletions(-)
+
+commit d05818e03ba1c6fa4b11d4897e099e4370a0f048
+Merge: 4618e36 a6248d3
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 15:57:11 2024 -0500
+
+    Merge pull request #12 from AshkanGanj/seller/edit-item
+    
+    Finished edit item use case
+
+commit a6248d39695b18a2e3debf22d6bb2022b3b152f2
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 15:53:35 2024 -0500
+
+    Finished edit item use case
+
+ .../review-items/specific-item/edit-item/page.tsx  | 389 +++++++++++++++++++++
+ src/app/review-items/specific-item/page.tsx        |   6 +-
+ 2 files changed, 394 insertions(+), 1 deletion(-)
+
+commit 4618e36175eceb23deea10ad3fbae95517b530dc
+Merge: bcd3dd9 fd2e7fe
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 08:11:09 2024 -0500
+
+    Merge pull request #11 from AshkanGanj/seller/review-items-specific-item
+    
+    Seller/review items specific item
+
+commit fd2e7fe449f8c17e64e0f8fc54c410317f1c5f74
+Merge: 7eaa759 bcd3dd9
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 08:05:57 2024 -0500
+
+    Merge branch 'main' into seller/review-items-specific-item
+
+commit 7eaa759d748f5b4d11d9592d7aa5095ca242d64a
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Wed Nov 6 08:05:30 2024 -0500
+
+    Completed review-item-specific-item page. Completed Remove Inactive Item, Publish Item, and Unpublish Item Use Cases
+
+ src/app/review-items/page.tsx               |  52 +++--
+ src/app/review-items/specific-item/page.tsx | 339 ++++++++++++++++++++++++++++
+ 2 files changed, 369 insertions(+), 22 deletions(-)
+
+commit bcd3dd91492af87f6247118c968822fa5c903319
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Wed Nov 6 00:37:09 2024 -0500
+
+    Made a small fix to a bug I encountered on the view-items page
+
+ src/app/view-items/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1216843263719434efe20cceab167c335d55e346
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 5 23:29:01 2024 -0500
+
+    made it so that from now own, when a seller adds new items, the authentication they used is what “counts” rather than the hardcoded “test1” credentials we initially made for testing
+
+ src/app/add-item/page.tsx | 18 +++++++++++++-----
+ 1 file changed, 13 insertions(+), 5 deletions(-)
+
+commit 094bd064b963f5c8ed50acab8bd0d61282311cf8
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 5 23:00:43 2024 -0500
+
+    Found a small bug regarding the user type on the login-account page and fixed it
+
+ src/app/login-account/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e32b89e6850f90ffefb28373f02d7c793761e61d
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 20:39:02 2024 -0500
+
+    Update Navbar component to conditionally render links based on user type and enhance user greeting on homepage
+
+ src/app/components/Navbar.tsx | 30 +++++++++++++++---------------
+ src/app/page.tsx              | 11 ++++++++++-
+ 2 files changed, 25 insertions(+), 16 deletions(-)
+
+commit 9645d79ab6c73b6a7550098f5e3c8fa9fefef3e8
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 20:04:11 2024 -0500
+
+    Bug fix.
+
+ src/app/components/Navbar.tsx  | 15 ++++++++++-----
+ src/app/login-account/page.tsx |  8 ++++++--
+ 2 files changed, 16 insertions(+), 7 deletions(-)
+
+commit 7de095a9066d3612600876da051e9e41352a81e2
+Merge: 123e738 1efb47f
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 19:43:51 2024 -0500
+
+    Merge pull request #10 from AshkanGanj/customer/view-items
+    
+    Add carousel
+
+commit 1efb47f594d2ed05448858644d938debe6963d7f
+Merge: 797f7c4 123e738
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 19:43:39 2024 -0500
+
+    Merge branch 'main' into customer/view-items
+
+commit 797f7c4258db93cac1ff06e7a8ace8dd714093a3
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 19:39:51 2024 -0500
+
+    Add carousel
+
+ package-lock.json           |  38 +++++++--
+ package.json                |   3 +-
+ src/app/view-items/page.tsx | 202 +++++++++++++++++++++++++++++---------------
+ 3 files changed, 167 insertions(+), 76 deletions(-)
+
+commit 123e7384821d4dbc4db912d40f35435112de72f4
+Merge: e535e29 eb301d9
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 19:18:42 2024 -0500
+
+    Merge pull request #9 from AshkanGanj/close-accounts
+    
+    Close accounts
+
+commit eb301d9dff8bc069e0553b26bf978629427a59fb
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 19:16:52 2024 -0500
+
+    Edit comment.
+
+ src/app/create-account/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 82d84d98cf5bc29a4c77b5e697593ee4cb1ba99b
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 19:16:30 2024 -0500
+
+    Add close account feature
+
+ src/app/close-account/page.tsx | 81 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 81 insertions(+)
+
+commit e535e29513fdfadc13e22cef050777406da19360
+Merge: 3175011 0182521
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 19:16:15 2024 -0500
+
+    Merge pull request #8 from AshkanGanj/customer/sort-search
+    
+    Add search and sort functions
+
+commit 3bcbc725dda80376efa9823eb52aff4b2858da88
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 19:16:14 2024 -0500
+
+    Add close account and modify Navbar to show create account before login and after login show close account.
+
+ src/app/components/Navbar.tsx | 26 ++++++++++++++++++++------
+ 1 file changed, 20 insertions(+), 6 deletions(-)
+
+commit 01825219c3f28e0674f22c8a6b83986424d80c00
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 19:15:44 2024 -0500
+
+    Add search and sort functions
+
+ src/app/view-items/page.tsx | 189 ++++++++++++++++++++++++++++----------------
+ 1 file changed, 121 insertions(+), 68 deletions(-)
+
+commit 31750118bce7d358be0cb375c2482cf71faea659
+Merge: f66e559 b5b0efc
+Author: Maryam Ataei <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 18:37:57 2024 -0500
+
+    Merge pull request #7 from AshkanGanj/login_account
+    
+    add login account feature.
+
+commit b5b0efca0f0f22c6cb09c686a207b5ea7716e904
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 18:36:20 2024 -0500
+
+    add login account feature.
+
+ src/app/login-account/page.tsx | 104 +++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 104 insertions(+)
+
+commit f66e559c3c79ca442b6a973574c5da136a1c8452
+Merge: aeb7661 60d02b0
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 18:09:19 2024 -0500
+
+    Merge pull request #6 from AshkanGanj/create-account
+    
+    Create account
+
+commit 60d02b075164b9ca733de0d6702a2fcbf9ac90ef
+Merge: b6ea304 aeb7661
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 18:09:11 2024 -0500
+
+    Merge branch 'main' into create-account
+
+commit b6ea304311d71056ba69d12230dfec70822c299b
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 17:58:25 2024 -0500
+
+    Add create account page.
+
+ package-lock.json               | 2659 +++++++++++++++++++++++++++++++++++++--
+ src/app/create-account/page.tsx |  110 ++
+ 2 files changed, 2656 insertions(+), 113 deletions(-)
+
+commit 4d44822093ee26aade559b0a97cf3d1210bf2702
+Author: Reza_SF <93408456+maryam-ataei@users.noreply.github.com>
+Date:   Tue Nov 5 17:58:07 2024 -0500
+
+    Add create acount link to Navbar
+
+ src/app/components/Navbar.tsx | 59 ++++++++++++++++++++++++-------------------
+ 1 file changed, 33 insertions(+), 26 deletions(-)
+
+commit aeb7661b2b26f2a7a8e2afd1eeb2728d979ae14a
+Merge: f690d9e eac91a6
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 5 17:53:16 2024 -0500
+
+    Merge pull request #5 from AshkanGanj/seller/add-item
+    
+    Seller/add item loading spinner and message + navbar links alignment bug fix
+
+commit eac91a62941e6d2ac70e77afd74f3ba96ab552a5
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Tue Nov 5 17:50:44 2024 -0500
+
+    Fixed styling issue that offset links in Navbar
+
+ src/app/components/Navbar.tsx | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit 568f71f5110b60957482addf854024d22c35f3dc
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Tue Nov 5 17:30:43 2024 -0500
+
+    Added a loading spinner and message during data submission
+
+ src/app/add-item/page.tsx             | 51 ++++++++++++++++++++++-------------
+ src/app/components/LoadingSpinner.tsx | 15 +++++++++++
+ 2 files changed, 48 insertions(+), 18 deletions(-)
+
+commit f690d9eaffb552132a7bc8561ac3670c123e4970
+Merge: ae46031 3399435
+Author: Ashkan Ganj <aganj@wpi.edu>
+Date:   Tue Nov 5 15:47:28 2024 -0500
+
+    Merge pull request #4 from AshkanGanj/customer/view-items
+    
+    Customer/view items
+
+commit 339943532809a9e033c14a3616ec886680905208
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 15:45:53 2024 -0500
+
+    Add images to the card and update the card
+
+ src/app/view-items/page.tsx | 126 +++++++++++++++++++++++++++-----------------
+ 1 file changed, 77 insertions(+), 49 deletions(-)
+
+commit 3a2ce72a06508801e80eb86df819b646b4ca98b7
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 15:22:40 2024 -0500
+
+    Add view active items
+
+ src/app/view-items/page.tsx | 55 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 55 insertions(+)
+
+commit 58efa209aa809b792d396b37cfb538da07af7bbd
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 15:21:51 2024 -0500
+
+    add view Item link
+
+ src/app/components/Navbar.tsx | 11 +++++------
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+
+commit ae46031212d1e2ed17e613dea5bc025416fdb945
+Merge: 245305a 840ed17
+Author: Ashkan Ganj <AshkanGanj@gmail.com>
+Date:   Tue Nov 5 11:45:33 2024 -0500
+
+    Merge pull request #3 from AshkanGanj/seller/review-items
+    
+    Can now upload pictures to the bucket from AWS host
+
+commit 840ed170ad07402394f00ea72dde2706b49fa491
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Tue Nov 5 11:44:04 2024 -0500
+
+    Can now upload pictures to the bucket from AWS host
+
+ package.json                             |  2 +-
+ src/app/add-item/api/upload-url/route.ts | 35 --------------------------------
+ src/app/add-item/page.tsx                | 26 ++++++++++++++++++------
+ 3 files changed, 21 insertions(+), 42 deletions(-)
+
+commit 245305ab7096fd8991ac6c494eb6524a83e86a22
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Tue Nov 5 11:19:50 2024 -0500
+
+    updated title
+
+ package-lock.json  | 2659 +++++++++++++++++++++++++++++++++++++++++++++++++---
+ src/app/layout.tsx |    2 +-
+ 2 files changed, 2547 insertions(+), 114 deletions(-)
+
+commit fdcf21483bf0f0444ccc57753eb0453ae90bbfee
+Merge: cd761b2 70747d3
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Mon Nov 4 21:16:14 2024 -0500
+
+    Merge pull request #2 from AshkanGanj/seller/review-items
+    
+    Able to filter items based on activity status
+
+commit 70747d3bebeaa58efe7a3a51ec4f348b96303c1c
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 4 21:13:46 2024 -0500
+
+    Able to filter items based on activity status
+    
+    Able to filter items based on activity status
+
+ src/app/add-item/api/upload-url/route.ts         |  2 +-
+ src/app/components/Navbar.tsx                    | 13 ++++--
+ src/app/review-items/ItemFilter.tsx              | 20 +++++++++
+ src/app/review-items/ReviewItemCardComponent.tsx | 33 +++++++++++++++
+ src/app/review-items/page.tsx                    | 52 ++++++++++++++++++++++++
+ 5 files changed, 116 insertions(+), 4 deletions(-)
+
+commit cd761b2878ba3e763562606e248d198948f65d95
+Merge: cd5f588 13f996b
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 4 13:40:46 2024 -0500
+
+    Merge pull request #1 from AshkanGanj/seller/add-item
+    
+    Seller/add item
+
+commit 13f996b80f1e75d234990ca3637fd16f18ff2b49
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Mon Nov 4 13:27:31 2024 -0500
+
+    Mainly migrated my code from aws-sdk v2 to v3
+
+ next.config.ts                           |  3 ++-
+ package.json                             |  4 +++-
+ src/app/add-item/api/upload-url/route.ts | 29 +++++++++++++++++------------
+ src/app/add-item/page.tsx                |  7 ++++++-
+ 4 files changed, 28 insertions(+), 15 deletions(-)
+
+commit 52e99ff86f92fe49601c0747e548846e2f67b62f
+Author: 12axel <116901882+12axel@users.noreply.github.com>
+Date:   Sun Nov 3 16:12:00 2024 -0500
+
+    Made it possible to upload pictures into an S3 bucket
+
+ package.json                             |   8 +-
+ src/app/add-item/api/upload-url/route.ts |  30 +++++
+ src/app/add-item/page.tsx                | 203 +++++++++++++++++--------------
+ 3 files changed, 149 insertions(+), 92 deletions(-)
+
+commit e3e1e0a72ab29959b7295758906d3bcb53bbfef6
+Author: Mahir Sowad <32722691+mahirsowad3@users.noreply.github.com>
+Date:   Sun Nov 3 00:10:42 2024 -0400
+
+    Add Item for Seller (Image Upload Not Working Yet)
+
+ package.json                  |  12 ++--
+ src/app/add-item/page.tsx     | 144 ++++++++++++++++++++++++++++++++++++++++++
+ src/app/components/Navbar.tsx |  27 ++++++--
+ 3 files changed, 173 insertions(+), 10 deletions(-)
+
+commit cd5f5880e98c45a1cbd80737c4644dce56854da1
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Sat Oct 26 17:11:11 2024 -0400
+
+    update padding
+
+ src/app/page.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4b47add10fc1c167763fcde071ac203a9cc88ea6
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Sat Oct 26 17:10:19 2024 -0400
+
+    Add navbar
+
+ src/app/components/Navbar.tsx |  35 +++++++++++++++
+ src/app/layout.tsx            |   2 +
+ src/app/page.tsx              | 102 +++---------------------------------------
+ 3 files changed, 43 insertions(+), 96 deletions(-)
+
+commit 35b277560f2fc06ac8e3f15f4edd14e71fd205e1
+Author: Ashkan Ganj <ashkanganj@gmail.com>
+Date:   Sat Oct 26 16:28:58 2024 -0400
+
+    initial commit
+
+ .gitignore                     |   36 +
+ README.md                      |   37 +-
+ next.config.ts                 |    7 +
+ package-lock.json              | 5333 ++++++++++++++++++++++++++++++++++++++++
+ package.json                   |   26 +
+ postcss.config.mjs             |    8 +
+ public/file.svg                |    1 +
+ public/globe.svg               |    1 +
+ public/next.svg                |    1 +
+ public/vercel.svg              |    1 +
+ public/window.svg              |    1 +
+ src/app/favicon.ico            |  Bin 0 -> 25931 bytes
+ src/app/fonts/GeistMonoVF.woff |  Bin 0 -> 67864 bytes
+ src/app/fonts/GeistVF.woff     |  Bin 0 -> 66268 bytes
+ src/app/globals.css            |   21 +
+ src/app/layout.tsx             |   35 +
+ src/app/page.tsx               |  101 +
+ tailwind.config.ts             |   19 +
+ tsconfig.json                  |   27 +
+ 19 files changed, 5654 insertions(+), 1 deletion(-)
+
+commit 52be927212253ff5c49c5254e8cc5d97ffb5b990
+Author: Ashkan Ganj <AshkanGanj@gmail.com>
+Date:   Sat Oct 26 15:04:24 2024 -0400
+
+    Initial commit
+
+ LICENSE   | 674 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md |   1 +
+ 2 files changed, 675 insertions(+)
