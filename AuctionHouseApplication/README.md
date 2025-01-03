@@ -30,6 +30,7 @@ Additionally, we have also include our package.json file in case there are issue
 - Unpublish Item
 - Archive Item
 - Fulfill Item
+- Request Unfreeze Item
 
 ### Buyer Use-Cases
 
