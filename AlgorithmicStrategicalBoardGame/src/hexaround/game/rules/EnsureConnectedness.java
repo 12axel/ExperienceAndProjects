@@ -88,7 +88,7 @@ public class EnsureConnectedness {
 
     /**
      * @param start the starting hex coordinate of the exploration.
-     * @param maxSteps the number of steps to check for reachable coordinates.
+     * @param maxSteps the maximum number of steps from the starting hax coordinate to check for reachable coordinates.
      * @return A collection of reachable hex coordinates within the specified number of steps
      * where the dragging rules and connectivity is never broken
      * given the current state of the game board.
@@ -123,7 +123,7 @@ public class EnsureConnectedness {
 
     /**
      * @param start the starting hex coordinate of the exploration.
-     * @param steps the exact number of steps for which to find reachable coordinates.
+     * @param steps the number of steps from the starting hax coordinate to check for reachable coordinates.
      * @return A collection of hex coordinates that are exactly the specified number of steps away
      * where the dragging rules and connectivity are never broken
      * given the current state of the game board.
@@ -144,7 +144,7 @@ public class EnsureConnectedness {
      * given the current state of the game board.
      * @param current the current hex coordinate being explored.
      * @param start the starting hex coordinate of the exploration.
-     * @param remainingSteps the number of steps remaining to reach the destination hex coordinate.
+     * @param remainingSteps the exact number of steps left to explore paths from the starting hex coordinate.
      * @param exploredCoordinates the set of already explored hex coordinates.
      * @param reachableCoordinates a set to store the result of reachable hex coordinates.
      */
@@ -163,4 +163,3 @@ public class EnsureConnectedness {
         }
     }
 }
-
