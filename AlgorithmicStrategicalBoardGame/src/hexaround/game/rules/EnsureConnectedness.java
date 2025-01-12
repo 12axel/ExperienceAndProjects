@@ -97,19 +97,21 @@ public class EnsureConnectedness {
      */
     public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate start, int maxSteps) {
         Set<HexCoordinate> exploredCoordinates = new HashSet<>();
-        HashMap<Integer, Set<HexCoordinate>> stepwiseExploredFringes = new HashMap<>();
+        Queue<HexCoordinate> coordinatesToExplore = new LinkedList<>();
+        HashMap<HexCoordinate, Integer> numberOfStepsFromStartingHex = new LinkedHashMap<>();
+        coordinatesToExplore.add(start);
         exploredCoordinates.add(start);
-        Set<HexCoordinate> initialFringe = new LinkedHashSet<>();
-        initialFringe.add(start);
-        stepwiseExploredFringes.put(0, initialFringe);
+        numberOfStepsFromStartingHex.put(start, 0);
 
-        for (int step = 1; step <= maxSteps; step++) {
-            stepwiseExploredFringes.put(step, new LinkedHashSet<>());
-            for (HexCoordinate currentCoordinate : stepwiseExploredFringes.get(step - 1)) {
-                for (HexCoordinate neighbor : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
-                    if (!exploredCoordinates.contains(neighbor) && moveMaintainsConnectivity(start, neighbor)) {
-                        exploredCoordinates.add(neighbor);
-                        stepwiseExploredFringes.get(step).add(neighbor);
+        while(!coordinatesToExplore.isEmpty()){
+            HexCoordinate currentCoordinate = coordinatesToExplore.poll();
+            int currentStep = numberOfStepsFromStartingHex.get(currentCoordinate);
+            if(currentStep < maxSteps) {
+                for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
+                    if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(start, neighboringCoordinate)) {
+                        exploredCoordinates.add(neighboringCoordinate);
+                        coordinatesToExplore.add(neighboringCoordinate);
+                        numberOfStepsFromStartingHex.put(neighboringCoordinate, currentStep + 1);
                     }
                 }
             }
