@@ -97,14 +97,14 @@ public class EnsureConnectedness {
      */
     public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate start, int maxSteps) {
         Set<HexCoordinate> exploredCoordinates = new HashSet<>();
-        List<List<HexCoordinate>> stepwiseExploredFringes = new ArrayList<>();
+        HashMap<Integer, Set<HexCoordinate>> stepwiseExploredFringes = new HashMap<>();
         exploredCoordinates.add(start);
-        List<HexCoordinate> initialFringe = new ArrayList<>();
+        Set<HexCoordinate> initialFringe = new LinkedHashSet<>();
         initialFringe.add(start);
-        stepwiseExploredFringes.add(initialFringe);
+        stepwiseExploredFringes.put(0, initialFringe);
 
         for (int step = 1; step <= maxSteps; step++) {
-            stepwiseExploredFringes.add(new ArrayList<>());
+            stepwiseExploredFringes.put(step, new LinkedHashSet<>());
             for (HexCoordinate currentCoordinate : stepwiseExploredFringes.get(step - 1)) {
                 for (HexCoordinate neighbor : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
                     if (!exploredCoordinates.contains(neighbor) && moveMaintainsConnectivity(start, neighbor)) {
