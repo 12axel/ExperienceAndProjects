@@ -87,7 +87,7 @@ public class EnsureConnectedness {
     }
 
     /**
-     * @param start the starting hex coordinate of the exploration.
+     * @param startingCoordinate the starting hex coordinate of the exploration.
      * @param maxSteps the maximum number of steps from the starting hax coordinate to check for reachable coordinates.
      * @return A collection of reachable hex coordinates within the specified number of steps
      * where the dragging rules and connectivity is never broken
@@ -95,20 +95,20 @@ public class EnsureConnectedness {
      * The algorithm used for this method is a variation of an algorithm that can be found at:
      * {@link <a href="https://www.redblobgames.com/grids/hexagons/">...</a>}
      */
-    public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate start, int maxSteps) {
+    public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate startingCoordinate, int maxSteps) {
         Set<HexCoordinate> exploredCoordinates = new HashSet<>();
         Queue<HexCoordinate> coordinatesToExplore = new LinkedList<>();
         Map<HexCoordinate, Integer> numberOfStepsFromStartingHex = new HashMap<>();
-        coordinatesToExplore.add(start);
-        exploredCoordinates.add(start);
-        numberOfStepsFromStartingHex.put(start, 0);
+        coordinatesToExplore.add(startingCoordinate);
+        exploredCoordinates.add(startingCoordinate);
+        numberOfStepsFromStartingHex.put(startingCoordinate, 0);
 
         while(!coordinatesToExplore.isEmpty()){
             HexCoordinate currentCoordinate = coordinatesToExplore.poll();
             int currentStep = numberOfStepsFromStartingHex.get(currentCoordinate);
             if(currentStep < maxSteps) {
                 for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
-                    if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(start, neighboringCoordinate)) {
+                    if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
                         exploredCoordinates.add(neighboringCoordinate);
                         coordinatesToExplore.add(neighboringCoordinate);
                         numberOfStepsFromStartingHex.put(neighboringCoordinate, currentStep + 1);
@@ -122,7 +122,7 @@ public class EnsureConnectedness {
 
 
     /**
-     * @param start the starting hex coordinate of the exploration.
+     * @param startingCoordinate the starting hex coordinate of the exploration.
      * @param steps the number of steps from the starting hax coordinate to check for reachable coordinates.
      * @return A collection of hex coordinates that are exactly the specified number of steps away
      * where the dragging rules and connectivity are never broken
@@ -131,9 +131,9 @@ public class EnsureConnectedness {
      * is a variation of Depth First Search, which can be found at:
      * {@link <a href="https://www.baeldung.com/java-depth-first-search">...</a>}
      */
-    public Collection<HexCoordinate> findReachableHexesInExactNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate start, int steps) {
+    public Collection<HexCoordinate> findReachableHexesInExactNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate startingCoordinate, int steps) {
         Set<HexCoordinate> reachableCoordinates = new HashSet<>();
-        explorePathsWhereConnectivityIsMaintainedAtEachStep(start, start, steps, new HashSet<>(), reachableCoordinates);
+        explorePathsWhereConnectivityIsMaintainedAtEachStep(startingCoordinate, startingCoordinate, steps, new HashSet<>(), reachableCoordinates);
         return reachableCoordinates;
     }
 
@@ -142,22 +142,22 @@ public class EnsureConnectedness {
      * to hex coordinates in the specified number of steps exactly
      * where the dragging rules and connectivity are never broken
      * given the current state of the game board.
-     * @param current the current hex coordinate being explored.
-     * @param start the starting hex coordinate of the exploration.
+     * @param currentCoordinate the current hex coordinate being explored.
+     * @param startingCoordinate the starting hex coordinate of the exploration.
      * @param remainingSteps the exact number of steps left to explore paths from the starting hex coordinate.
      * @param exploredCoordinates the set of already explored hex coordinates.
      * @param reachableCoordinates a set to store the result of reachable hex coordinates.
      */
-    public void explorePathsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate current, HexCoordinate start, int remainingSteps, Set<HexCoordinate> exploredCoordinates, Set<HexCoordinate> reachableCoordinates) {
+    public void explorePathsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate currentCoordinate, HexCoordinate startingCoordinate, int remainingSteps, Set<HexCoordinate> exploredCoordinates, Set<HexCoordinate> reachableCoordinates) {
         if (remainingSteps == 0) {
-            reachableCoordinates.add(current);
+            reachableCoordinates.add(currentCoordinate);
             return;
         }
 
-        for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(current)) {
-            if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(start, neighboringCoordinate)) {
+        for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
+            if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
                 exploredCoordinates.add(neighboringCoordinate);
-                explorePathsWhereConnectivityIsMaintainedAtEachStep(neighboringCoordinate, start, remainingSteps - 1, exploredCoordinates, reachableCoordinates);
+                explorePathsWhereConnectivityIsMaintainedAtEachStep(neighboringCoordinate, startingCoordinate, remainingSteps - 1, exploredCoordinates, reachableCoordinates);
                 exploredCoordinates.remove(neighboringCoordinate);
             }
         }
