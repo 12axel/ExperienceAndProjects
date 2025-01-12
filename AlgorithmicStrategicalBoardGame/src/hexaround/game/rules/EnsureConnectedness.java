@@ -98,20 +98,20 @@ public class EnsureConnectedness {
     public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate startingCoordinate, int maxSteps) {
         Set<HexCoordinate> exploredCoordinates = new HashSet<>();
         Queue<HexCoordinate> coordinatesToExplore = new LinkedList<>();
-        Map<HexCoordinate, Integer> numberOfStepsFromStartingHex = new HashMap<>();
+        Map<HexCoordinate, Integer> numberOfStepsFromStartingCoordinate = new HashMap<>();
         coordinatesToExplore.add(startingCoordinate);
         exploredCoordinates.add(startingCoordinate);
-        numberOfStepsFromStartingHex.put(startingCoordinate, 0);
+        numberOfStepsFromStartingCoordinate.put(startingCoordinate, 0);
 
         while(!coordinatesToExplore.isEmpty()){
             HexCoordinate currentCoordinate = coordinatesToExplore.poll();
-            int currentStep = numberOfStepsFromStartingHex.get(currentCoordinate);
+            int currentStep = numberOfStepsFromStartingCoordinate.get(currentCoordinate);
             if(currentStep < maxSteps) {
                 for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
                     if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
                         exploredCoordinates.add(neighboringCoordinate);
                         coordinatesToExplore.add(neighboringCoordinate);
-                        numberOfStepsFromStartingHex.put(neighboringCoordinate, currentStep + 1);
+                        numberOfStepsFromStartingCoordinate.put(neighboringCoordinate, currentStep + 1);
                     }
                 }
             }
