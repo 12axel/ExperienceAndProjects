@@ -98,7 +98,7 @@ public class EnsureConnectedness {
     public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate start, int maxSteps) {
         Set<HexCoordinate> exploredCoordinates = new HashSet<>();
         Queue<HexCoordinate> coordinatesToExplore = new LinkedList<>();
-        HashMap<HexCoordinate, Integer> numberOfStepsFromStartingHex = new HashMap<>();
+        Map<HexCoordinate, Integer> numberOfStepsFromStartingHex = new HashMap<>();
         coordinatesToExplore.add(start);
         exploredCoordinates.add(start);
         numberOfStepsFromStartingHex.put(start, 0);
