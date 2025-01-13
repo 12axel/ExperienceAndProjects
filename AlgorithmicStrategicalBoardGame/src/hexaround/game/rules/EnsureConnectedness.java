@@ -96,11 +96,9 @@ public class EnsureConnectedness {
      * {@link <a href="https://www.redblobgames.com/grids/hexagons/">...</a>}
      */
     public Collection<HexCoordinate> findReachableHexesWithinNumberOfStepsWhereConnectivityIsMaintainedAtEachStep(HexCoordinate startingCoordinate, int maxSteps) {
-        Set<HexCoordinate> exploredCoordinates = new HashSet<>();
         Queue<HexCoordinate> coordinatesToExplore = new LinkedList<>();
         Map<HexCoordinate, Integer> numberOfStepsFromStartingCoordinate = new HashMap<>();
         coordinatesToExplore.add(startingCoordinate);
-        exploredCoordinates.add(startingCoordinate);
         numberOfStepsFromStartingCoordinate.put(startingCoordinate, 0);
 
         while(!coordinatesToExplore.isEmpty()){
@@ -108,8 +106,7 @@ public class EnsureConnectedness {
             int currentStep = numberOfStepsFromStartingCoordinate.get(currentCoordinate);
             if(currentStep < maxSteps) {
                 for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
-                    if (!exploredCoordinates.contains(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
-                        exploredCoordinates.add(neighboringCoordinate);
+                    if (!numberOfStepsFromStartingCoordinate.containsKey(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
                         coordinatesToExplore.add(neighboringCoordinate);
                         numberOfStepsFromStartingCoordinate.put(neighboringCoordinate, currentStep + 1);
                     }
@@ -117,7 +114,7 @@ public class EnsureConnectedness {
             }
         }
 
-        return exploredCoordinates;
+        return numberOfStepsFromStartingCoordinate.keySet();
     }
 
 
