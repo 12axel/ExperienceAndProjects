@@ -103,7 +103,7 @@ public class EnsureConnectedness {
 
         while(!coordinatesToExplore.isEmpty()){
             HexCoordinate currentCoordinate = coordinatesToExplore.poll();
-            int currentStep = numberOfStepsFromStartingCoordinate.get(currentCoordinate) + 1 ;
+            int currentStep = numberOfStepsFromStartingCoordinate.get(currentCoordinate) + 1;
             if(currentStep <= maxSteps) {
                 for (HexCoordinate neighboringCoordinate : enforceDraggingRules.findAvailableSpotsToDrag(currentCoordinate)) {
                     if (!numberOfStepsFromStartingCoordinate.containsKey(neighboringCoordinate) && moveMaintainsConnectivity(startingCoordinate, neighboringCoordinate)) {
