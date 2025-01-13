@@ -88,7 +88,7 @@ public class EnsureConnectedness {
 
     /**
      * @param startingCoordinate the starting hex coordinate of the exploration.
-     * @param maxSteps the maximum number of steps from the starting hax coordinate to check for reachable coordinates.
+     * @param maxSteps the maximum number of steps from the starting hex coordinate to check for reachable coordinates.
      * @return A collection of reachable hex coordinates within the specified number of steps
      * where the dragging rules and connectivity is never broken
      * given the current state of the game board.
