@@ -76,7 +76,7 @@ public class HexCoordinate {
      * hex coordinate
      */
     public Collection<HexCoordinate> neighbors() {
-        Set<HexCoordinate> neighbors = new LinkedHashSet<>();
+        List<HexCoordinate> neighbors = new LinkedList<>();
         neighbors.add(new HexCoordinate(x, y + 1));
         neighbors.add(new HexCoordinate(x + 1, y));
         neighbors.add(new HexCoordinate(x + 1, y - 1));
